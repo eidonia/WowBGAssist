@@ -1,3 +1,1918 @@
 <resources>
-    <string name="app_name">Worl of Warcraft Board Game Assistant Tool</string>
+    <string name="app_name">World of Warcraft Board Game Assistant Tool</string>
+
+    Stuff
+
+    <string name="Grey">Common</string>
+    <string name="Green">Uncommon</string>
+    <string name="Blue">Rare</string>
+    <string name="Purple">Epic</string>
+    <string name="Artifact">Artifact</string>
+
+
+    <string name="AmuletOfProtection">Amulet of Protection</string>
+    <string name="AmuletOfProtectionDesc">Start of your dice pool step : If you are not rolling any red dice, you may add 3 green dice to your dice pool</string>
+    <string name="AmuletOfProtectionType">Trinket</string>
+    <string name="AmuletOfProtectionLvl">5</string>
+    <string name="AmuletOfProtectionCost">17</string>
+    <string name="AmuletOfProtectionEnergy">0</string>
+
+    <string name="AnkhOfLife">AnkhOfLife</string>
+    <string name="AnkhOfLifeDesc">Your health capacity is increased by 3</string>
+    <string name="AnkhOfLifeType">Trinket</string>
+    <string name="AnkhOfLifeLvl">2</string>
+    <string name="AnkhOfLifeCost">7</string>
+    <string name="AnkhOfLifeEnergy">0</string>
+
+    <string name="Archeus">Archeus</string>
+    <string name="ArcheusDesc">Add 2 red dices, 1 blue dice and 1 green dice</string>
+    <string name="ArcheusType">Sword</string>
+    <string name="ArcheusLvl">3</string>
+    <string name="ArcheusCost">14</string>
+    <string name="ArcheusEnergy">0</string>
+
+    <string name="AvengersBreastplate">Avenger\'s Breastplate</string>
+    <string name="AvengersBreastplateDesc">Add 2 green dices to your dice pool. During your Place Token step : For each armor token you place in the defense box, you may also place 1 hit token in the attrition box</string>
+    <string name="AvengersBreastplateType">Mail</string>
+    <string name="AvengersBreastplateLvl">5</string>
+    <string name="AvengersBreastplateCost">20</string>
+    <string name="AvengersBreastplateEnergy">0</string>
+
+    <string name="BadMojoMask">Bad Mojo Mask</string>
+    <string name="BadMojoMaskDesc">Add 1 green dice and 1 blue dice to your dice pool</string>
+    <string name="BadMojoMaskType">Helmet - Cloth</string>
+    <string name="BadMojoMaskLvl">4</string>
+    <string name="BadMojoMaskCost">16</string>
+    <string name="BadMojoMaskEnergy">0</string>
+
+    <string name="BiznicksAccurascope">Biznick\'s Accurascope</string>
+    <string name="BiznicksAccurascopeDesc">Start of your Place Token step : If you have a bow or gun equipped, you may place 1 hit token in the damage box</string>
+    <string name="BiznicksAccurascopeType">Scope - Bow or Gun</string>
+    <string name="BiznicksAccurascopeLvl">4</string>
+    <string name="BiznicksAccurascopeCost">18</string>
+    <string name="BiznicksAccurascopeEnergy">0</string>
+
+    <string name="Bloodrazor">Bloodrazor</string>
+    <string name="BloodrazorDesc">Add 3 red dices to your dice pool. Start of your Place Token step : If it is at least the second round of combat, place 2 hit tokens in the damage box</string>
+    <string name="BloodrazorType">Sword</string>
+    <string name="BloodrazorLvl">4</string>
+    <string name="BloodrazorCost">15</string>
+    <string name="BloodrazorEnergy">0</string>
+
+    <string name="CannonballRunner">Cannonball Runner</string>
+    <string name="CannonballRunnerDesc">End of your Reroll step : Discard this item to place 3 hit tokens in the damage box</string>
+    <string name="CannonballRunnerType">Trinket</string>
+    <string name="CannonballRunnerLvl">2</string>
+    <string name="CannonballRunnerCost">7</string>
+    <string name="CannonballRunnerEnergy">0</string>
+
+    <string name="ColossalBagOfLoot">Colossal Bag of Loot</string>
+    <string name="ColossalBagOfLootDesc">Start of your Action : Discard this card o reveal the top four cards on the Bonus item deck. Each friendly character in your region may take any of the revealed items that are level 2 or lower, then discard the other revealed cards</string>
+    <string name="ColossalBagOfLootType">Trinket</string>
+    <string name="ColossalBagOfLootLvl">2</string>
+    <string name="ColossalBagOfLootCost">7</string>
+    <string name="ColossalBagOfLootEnergy">0</string>
+
+    <string name="CowlOfHeroes">Cowl of Heroes</string>
+    <string name="CowlOfHeroesDesc">Start of your Dice Pool step : If you are in combat with at least one red creature, boss (including the Overlord), or enemy player, add 1 blue dice and 1 green dice to your dice pool</string>
+    <string name="CowlOfHeroesType">Helmet - Cloth</string>
+    <string name="CowlOfHeroesLvl">2</string>
+    <string name="CowlOfHeroesCost">9</string>
+    <string name="CowlOfHeroesEnergy">0</string>
+
+    <string name="CrestOfRetribution">Crest of Retribution</string>
+    <string name="CrestOfRetributionDesc">Add 2 green dices to your dice pool. End of your Reroll step : Spot one 8 green dice to place 1 hot toekn in the damage box</string>
+    <string name="CrestOfRetributionType">Shield - Mail</string>
+    <string name="CrestOfRetributionLvl">5</string>
+    <string name="CrestOfRetributionCost">17</string>
+    <string name="CrestOfRetributionEnergy">0</string>
+
+    <string name="CursedOozeJar">Cursed Ooze Jar</string>
+    <string name="CursedOozeJarDesc">Does not count towards your bag limit. Start of your Dice Pool step : Discard this card to place 1 curse token on each enemy participating character. You may only use one potion per combat round</string>
+    <string name="CursedOozeJarType">Potion</string>
+    <string name="CursedOozeJarLvl">4</string>
+    <string name="CursedOozeJarCost">17</string>
+    <string name="CursedOozeJarEnergy">0</string>
+
+    <string name="Doomshot">Doomshot</string>
+    <string name="DoomshotDesc">Does not count toward you Bag limit. Start your Dice Pool step : If you have a Bow equipped, discard this card to add 2 blue dices and 2 red dices to your dice pool. You may only use one Ammo per combat round.</string>
+    <string name="DoomshotType">Ammo</string>
+    <string name="DoomshotLvl">3</string>
+    <string name="DoomshotCost">11</string>
+    <string name="DoomshotEnergy">0</string>
+
+    <string name="ElectrocutionerLeg">Electrocutioner Leg</string>
+    <string name="ElectrocutionerLegDesc">Add 2 red dices to your dice pool. Reroll +1. Start your Place Token step : You may place 1 hit token in the damage box</string>
+    <string name="ElectrocutionerLegType">Sword</string>
+    <string name="ElectrocutionerLegLvl">3</string>
+    <string name="ElectrocutionerLegCost">13</string>
+    <string name="ElectrocutionerLegEnergy">0</string>
+
+    <string name="FeatheredBreastplate">Feathered Breastplate</string>
+    <string name="FeatheredBreastplateDesc">Add 3 green dices to your pool. During your Travel action : When you enter a region with one or more independent creatures, you do not have to stop traveling</string>
+    <string name="FeatheredBreastplateType">Leather</string>
+    <string name="FeatheredBreastplateLvl">4</string>
+    <string name="FeatheredBreastplateCost">16</string>
+    <string name="FeatheredBreastplateEnergy">0</string>
+
+    <string name="FelstoneGoodLuckCharm">Felstone Good Luck Charm</string>
+    <string name="FelstoneGoodLuckCharmDesc">End of your Dice Pool step : Discard this card to reroll all your dice</string>
+    <string name="FelstoneGoodLuckCharmType">Trinket</string>
+    <string name="FelstoneGoodLuckCharmLvl">4</string>
+    <string name="FelstoneGoodLuckCharmCost">16</string>
+    <string name="FelstoneGoodLuckCharmEnergy">0</string>
+
+    <string name="FistOfStone">Fist of Stone</string>
+    <string name="FistOfStoneDesc">Add 4 red dices to your dice pool. Reroll -1 Attrition +3.</string>
+    <string name="FistOfStoneType">Mace</string>
+    <string name="FistOfStoneLvl">3</string>
+    <string name="FistOfStoneCost">8</string>
+    <string name="FistOfStoneEnergy">0</string>
+
+    -------HERE------------
+    <string name="FistOfThePeoplesMilitia">Fist of the People\'s Militia</string>
+    <string name="FistOfThePeoplesMilitiaDesc">Add 3 red dices to your dice pool. Reroll +2 Attrition +1</string>
+    <string name="FistOfThePeoplesMilitiaType">Mace</string>
+    <string name="FistOfThePeoplesMilitiaLvl">3</string>
+    <string name="FistOfThePeoplesMilitiaCost">13</string>
+    <string name="FistOfThePeoplesMilitiaEnergy">0</string>
+
+    <string name="GnomishShrinkRay">Gnomish Shrink Ray</string>
+    <string name="GnomishShrinkRayDesc">Place X armor tokens on this card. X is equal to the Energy you spend when you equip this card. Start of your Dice Pool step : Add a number of green dice to your dice pool equal to the number of armor tokens on this card. End of your Dice Pool step : Lose 1 armor token from this card for each 1 green dice or 2 green dice in your dice pool.</string>
+    <string name="GnomishShrinkRayType">Trinket</string>
+    <string name="GnomishShrinkRayLvl">5</string>
+    <string name="GnomishShrinkRayCost">19</string>
+    <string name="GnomishShrinkRayEnergy">0</string>
+
+    <string name="GreaterFirestone">Greater Firestone</string>
+    <string name="GreaterFirestoneDesc">Add 2 red dices to your dice pool.</string>
+    <string name="GreaterFirestoneType">Trinket</string>
+    <string name="GreaterFirestoneLvl">4</string>
+    <string name="GreaterFirestoneCost">14</string>
+    <string name="GreaterFirestoneEnergy">0</string>
+
+    <string name="HeadOfGrimhalDuuc">Head of Grim\'shal Duuc</string>
+    <string name="HeadOfGrimhalDuucDesc">Start of your Dice Pool step : You may unequip this card to reduce the Threat value of each opponent by 1 until the end of your Attack phase</string>
+    <string name="HeadOfGrimhalDuucType">Head</string>
+    <string name="HeadOfGrimhalDuucLvl">3</string>
+    <string name="HeadOfGrimhalDuucCost">12</string>
+    <string name="HeadOfGrimhalDuucEnergy">0</string>
+
+    <string name="HeartseekingCrossbow">Heartseeking Crossbow</string>
+    <string name="HeartseekingCrossbowDesc">Add 2 blue dices to your dice pool. Start of your Reroll step : Place 1hit token in the damage box for each blue dice you spot with a result of at least 2 higher than your opponent\'s Threat value.</string>
+    <string name="HeartseekingCrossbowType">Bow</string>
+    <string name="HeartseekingCrossbowLvl">3</string>
+    <string name="HeartseekingCrossbowCost">12</string>
+    <string name="HeartseekingCrossbowEnergy">0</string>
+
+    <string name="IcicleRod">Icicle Rod</string>
+    <string name="IcicleRodDesc">Add 2 red dices and 1 blue dice to your dice pool. Start of each combat round : Regain 1 energy</string>
+    <string name="IcicleRodType">Staff</string>
+    <string name="IcicleRodLvl">3</string>
+    <string name="IcicleRodCost">10</string>
+    <string name="IcicleRodEnergy">0</string>
+
+    <string name="Ironfoe">Ironfoe</string>
+    <string name="IronfoeDesc">Add 3 red dices to your dice pool. Start of your Reroll step : You may gain Reroll + 4 if you choose not to reroll any blue dice or any green dice.</string>
+    <string name="IronfoeType">Mace</string>
+    <string name="IronfoeLvl">4</string>
+    <string name="IronfoeCost">15</string>
+    <string name="IronfoeEnergy">0</string>
+
+    <string name="JadeBreastplateOfPower">Jade Breastplate of Power</string>
+    <string name="JadeBreastplateOfPowerDesc">Add 4 green dices and 1 red dice to your dice pool. Reroll + 1.</string>
+    <string name="JadeBreastplateOfPowerType">Mail</string>
+    <string name="JadeBreastplateOfPowerLvl">5</string>
+    <string name="jadeBreastplateOfPowerCost">22</string>
+    <string name="jadeBreastplateOfPowerEnergy">0</string>
+
+    <string name="LorekeepersRing">Lorekeeper\'s Ring</string>
+    <string name="LorekeepersRingDesc">Your energy capacity is increased by 2. Start of each combat round : Regain 1 energy.</string>
+    <string name="LorekeepersRingType">Trinket</string>
+    <string name="LorekeepersRingLvl">5</string>
+    <string name="LorekeepersRingCost">11</string>
+    <string name="LorekeepersRingEnergy">0</string>
+
+    <string name="LunarWandOfArcaneWrath">Lunar Wand of Arcane Wrath</string>
+    <string name="LunarWandOfArcaneWrathDesc">Add 3 blue dices to your dice pool. End of your Dice Pool step : you may spend any amount of your available Health to roll an equal number of additional blue dice.</string>
+    <string name="LunarWandOfArcaneWrathType">Wand</string>
+    <string name="LunarWandOfArcaneWrathLvl">5</string>
+    <string name="LunarWandOfArcaneWrathCost">19</string>
+    <string name="LunarWandOfArcaneWrathEnergy">0</string>
+
+    <string name="OutridersBow">Outrider\'s Bow</string>
+    <string name="OutridersBowDesc">Add 4 blue dices to your dice pool. End of your Dice Pool step : You may change one 1 blue dice into a 7 blue dice.</string>
+    <string name="OutridersBowType">Bow</string>
+    <string name="OutridersBowLvl">5</string>
+    <string name="OutridersBowCost">18</string>
+    <string name="OutridersBowEnergy">0</string>
+
+    <string name="PyricCaduceus">Pyric Caduceus</string>
+    <string name="PyricCaduceusDesc">Add 3 blue dices to your dice pool. End of your Reroll step : You may spend 2 Energy to place 2 hit tokens in the damage box</string>
+    <string name="PyricCaduceusType">Wand</string>
+    <string name="PyricCaduceusLvl">4</string>
+    <string name="PyricCaduceusCost">14</string>
+    <string name="PyricCaduceusEnergy">0</string>
+
+    <string name="QuelSerrar">Quel\'Serrar</string>
+    <string name="QuelSerrarDesc">Add 4 red dices to your dice pool. End of your Reroll step : Spot one 8 red dice to place 1 armor token in the defense box</string>
+    <string name="QuelSerrarType">Sword</string>
+    <string name="QuelSerrarLvl">5</string>
+    <string name="QuelSerrarCost">20</string>
+    <string name="QuelSerrarEnergy">0</string>
+
+    <string name="RageclawHelm">Rageclaw Helm </string>
+    <string name="RageclawHelmDesc">End of your Reroll step : If you did not roll any blue dice during this Dice Pool step, you may place an additional hit token in the damage box for 8 red dice you spot</string>
+    <string name="RageclawHelmType">Helmet - Leather</string>
+    <string name="RageclawHelmLvl">4</string>
+    <string name="RageclawHelmCost">13</string>
+    <string name="RageclawHelmEnergy">0</string>
+
+    <string name="RobeOfPower">Robe of Power</string>
+    <string name="RobeOfPowerDesc">Add 1 green dice to your dice pool. After you lose a Health : Once per combat round, you may spend up to 2 Energy. Regain 1 Health for each Energy you spend.</string>
+    <string name="RobeOfPowerType">Cloth</string>
+    <string name="RobeOfPowerLvl">3</string>
+    <string name="RobeOfPowerCost">13</string>
+    <string name="RobeOfPowerEnergy">0</string>
+
+    <string name="RobeOfTheWest">Robe of The West</string>
+    <string name="RobeOfTheWestDesc">Add 2 green dices to your dice pool. End of your Dice Pool step : You may spend 1 Energy to gain Reroll + 2.</string>
+    <string name="RobeOfTheWestType">Cloth</string>
+    <string name="RobeOfTheWestLvl">2</string>
+    <string name="RobeOfTheWestCost">8</string>
+    <string name="RobeOfTheWestEnergy">0</string>
+
+    <string name="RunebladeOfBaronRivendare">Runeblade of Baron Rivendare</string>
+    <string name="RunebladeOfBaronRivendareDesc">Add 3 red dices to your dice pool. End of your Reroll step : Regain 1 Energy for each 8 red dice you spot.</string>
+    <string name="RunebladeOfBaronRivendareType">Sword</string>
+    <string name="RunebladeOfBaronRivendareLvl">4</string>
+    <string name="RunebladeOfBaronRivendareCost">14</string>
+    <string name="RunebladeOfBaronRivendareEnergy">0</string>
+
+    <string name="ScrollOfTeleportation">Scroll of Teleportation</string>
+    <string name="ScrollOfTeleportationDesc">Does not count towards your Bag limit. Using this card counts as an action. Roll 3 blue dices. If you roll at least one 6+ blue dice, you may place your character on any region containing one or more friendly characters.</string>
+    <string name="ScrollOfTeleportationType">Scroll</string>
+    <string name="ScrollOfTeleportationLvl">3</string>
+    <string name="ScrollOfTeleportationCost">13</string>
+    <string name="ScrollOfTeleportationEnergy">0</string>
+
+    <string name="ScrollOfTheWhale">Scroll of The Whale</string>
+    <string name="ScrollOfTheWhaleDesc">Does not count towards your Bag limit. Using this card counts as an action. End of your Dice Pool step : Discard this card to change up to four red or blue dices into an equal number of 8 green dices. You may only use one Scroll per combat round.</string>
+    <string name="ScrollOfTheWhaleType">Scroll</string>
+    <string name="ScrollOfTheWhaleLvl">2</string>
+    <string name="ScrollOfTheWhaleCost">7</string>
+    <string name="ScrollOfTheWhaleEnergy">0</string>
+
+    <string name="ScryingOrb">Scrying Orb</string>
+    <string name="ScryingOrbDesc">Immediately before your faction draws a new quest : Draw 2 cards from the deck and choose which quest to put into play. Place the other quest on the bottom of its deck. Then unequip this card.</string>
+    <string name="ScryingOrbType">Trinket</string>
+    <string name="ScryingOrbLvl">3</string>
+    <string name="ScryingOrbCost">10</string>
+    <string name="ScryingOrbEnergy">0</string>
+
+    <string name="SealOfAscension">Seal of Ascension</string>
+    <string name="SealOfAscensionDesc">During your Character Management step : You may equip items that are one level higher than your character.</string>
+    <string name="SealOfAscensionType">Trinket</string>
+    <string name="SealOfAscensionLvl">3</string>
+    <string name="SealOfAscensionCost">11</string>
+    <string name="SealOfAscensionEnergy">0</string>
+
+    <string name="ShadowforgeBushmaster">Shadowforge Bushmaster</string>
+    <string name="ShadowforgeBushmasterDesc">Add 4 blue dices to your dice pool. End of your Reroll step : Spot one 7+ blue dice to place 2 hit tokens in the damage box.</string>
+    <string name="ShadowforgeBushmasterType">Gun</string>
+    <string name="ShadowforgeBushmasterLvl">4</string>
+    <string name="ShadowforgeBushmasterCost">15</string>
+    <string name="ShadowforgeBushmasterEnergy">0</string>
+
+    <string name="SkullflameShield">Skullflame Shield</string>
+    <string name="SkullflameShieldDesc">During your Place Tokens step : Place 1 hit token in the attrition box for each armor token you place in the defense box.</string>
+    <string name="SkullflameShieldType">Shield - Mail</string>
+    <string name="SkullflameShieldLvl">5</string>
+    <string name="SkullflameShieldCost">20</string>
+    <string name="SkullflameShieldEnergy">0</string>
+
+    <string name="StaffOfRampantGrowth">Staff of Rampant Growth</string>
+    <string name="StaffOfRampantGrowthDesc">Add 2 red dices to your dice pool. After a friendly participating character loses Health : If you use an instant power that allows that character to regain Health, you may regain 1 Energy.</string>
+    <string name="StaffOfRampantGrowthType">Staff</string>
+    <string name="StaffOfRampantGrowthLvl">3</string>
+    <string name="StaffOfRampantGrowthCost">13</string>
+    <string name="StaffOfRampantGrowthEnergy">0</string>
+
+    <string name="Stormrager">Stormrager</string>
+    <string name="StormragerDesc">Add 3 blue dices to your dice pool. If you have 6 or more available Energy, add an additional 2 red dices to your dice pool.</string>
+    <string name="StormragerType">Wand</string>
+    <string name="StormragerLvl">4</string>
+    <string name="StormragerCost">11</string>
+    <string name="StormragerEnergy">0</string>
+
+    <string name="TaKierthanSongblade">Ta\'Kierthan Songblade</string>
+    <string name="TaKierthanSongbladeDesc">Add 2 red dices to your dice pool. End of your Reroll step : Spent up to 3 of your available Health. Change one red dice into an 8 red dice for each Health you spend.</string>
+    <string name="TaKierthanSongbladeType">Sword</string>
+    <string name="TaKierthanSongbladeLvl">3</string>
+    <string name="TaKierthanSongbladeCost">12</string>
+    <string name="TaKierthanSongbladeEnergy">0</string>
+
+    <string name="TheUnstoppableForce">The Unstoppable Force</string>
+    <string name="TheUnstoppableForceDesc">You may not have any cards equipped in your General Item area. Add 3 red dices to your dice pool. Reroll +3.</string>
+    <string name="TheUnstoppableForceType">Mace</string>
+    <string name="TheUnstoppableForceLvl">3</string>
+    <string name="TheUnstoppableForceCost">8</string>
+    <string name="TheUnstoppableForceEnergy">0</string>
+
+    <string name="ThoriumHelm">Thorium Helm</string>
+    <string name="ThoriumHelmDesc">Add 1 green dice to your dice pool. End of your Dice Pool step : Spot one 8 green dice to gain Reroll +2.</string>
+    <string name="ThoriumHelmType">Helmet - Mail</string>
+    <string name="ThoriumHelmLvl">3</string>
+    <string name="ThoriumHelmCost">12</string>
+    <string name="ThoriumHelmEnergy">0</string>
+
+    <string name="TokenOfGoodFortune">Token of Good Fortune</string>
+    <string name="TokenOfGoodFortuneDesc">End of your Dice Pool step : Discard this card to gain Reroll +6.</string>
+    <string name="TokenOfGoodFortuneType">Trinket</string>
+    <string name="TokenOfGoodFortuneLvl">3</string>
+    <string name="TokenOfGoodFortuneCost">8</string>
+    <string name="TokenOfGoodFortuneEnergy">0</string>
+
+    <string name="TomeOfWisdom">Tome of Wisdom</string>
+    <string name="TomeOfWisdomDesc">Start of your action : You may purchase one power from your class deck and immediately equip it. Then unequip this card.</string>
+    <string name="TomeOfWisdomType">Trinket</string>
+    <string name="TomeOfWisdomLvl">2</string>
+    <string name="TomeOfWisdomCost">7</string>
+    <string name="TomeOfWisdomEnergy">0</string>
+
+    <string name="ViskagTheBloodletter">Vis\'kag The Bloodletter</string>
+    <string name="ViskagTheBloodletterDesc">Add 3 red dices to your dice pool. End of your Reroll step : Spot two 8 red dice to place 2 hit tokens in the damage box.</string>
+    <string name="ViskagTheBloodletterType">Sword</string>
+    <string name="ViskagTheBloodletterLvl">3</string>
+    <string name="ViskagTheBloodletterCost">11</string>
+    <string name="ViskagTheBloodletterEnergy">0</string>
+
+    <string name="ArcanistBindings">Arcanist Bindings</string>
+    <string name="ArcanistBindingsDesc">Add 2 blue dices to your dice pool. Start of each combat round : Regain 1 Energy.</string>
+    <string name="ArcanistBindingsType">Trinket</string>
+    <string name="ArcanistBindingsLvl">5</string>
+    <string name="ArcanistBindingsCost">20</string>
+    <string name="ArcanistBindingsEnergy">0</string>
+
+    <string name="CracklingStaff">Crackling Staff</string>
+    <string name="CracklingStaffDesc">Add 3 red dices to your dice pool. End of your Dice Pool step : For each 8 red dice you spot, gain Attrition +1 and Reroll +1.</string>
+    <string name="CracklingStaffType">Staff</string>
+    <string name="CracklingStaffLvl">5</string>
+    <string name="CracklingStaffCost">18</string>
+    <string name="CracklingStaffEnergy">0</string>
+
+    <string name="BasiliskVenom">Basilisk Venom</string>
+    <string name="BasiliskVenomDesc">End of your Reroll step : Gain Attrition +1 for each 8 red dice you spot.</string>
+    <string name="BasiliskVenomType">Trinket</string>
+    <string name="BasiliskVenomLvl">5</string>
+    <string name="BasiliskVenomCost">20</string>
+    <string name="BasiliskVenomEnergy">0</string>
+
+    <string name="BladeOfTheTitans">Blade of the Titans</string>
+    <string name="BladeOfTheTitansDesc">Add 4 red dices to your dice pool.If you are in combat with at least one red creature or boss (including the Overlord), add an additional 2 blue dices to your dice pool.</string>
+    <string name="BladeOfTheTitansType">Sword</string>
+    <string name="BladeOfTheTitansLvl">5</string>
+    <string name="BladeOfTheTitansCost">20</string>
+    <string name="BladeOfTheTitansEnergy">0</string>
+
+    <string name="BoneOfTheInfernal">Bone of the Infernal</string>
+    <string name="BoneOfTheInfernalDesc">Add 3 blue dices and 1 red dice to your dice pool. Attrition +2.</string>
+    <string name="BoneOfTheInfernalType">Wand</string>
+    <string name="BoneOfTheInfernalLvl">5</string>
+    <string name="BoneOfTheInfernalCost">20</string>
+    <string name="BoneOfTheInfernalEnergy">0</string>
+
+    <string name="BurstOfKnowledge">Burst of Knowledge</string>
+    <string name="BurstOfKnowledgeDesc">Lower the Energy cost of your instant powers bby 1 (to a minimum of 0). End of combat : Discard this card.</string>
+    <string name="BurstOfKnowledgeType">Trinket</string>
+    <string name="BurstOfKnowledgeLvl">4</string>
+    <string name="BurstOfKnowledgeCost">14</string>
+    <string name="BurstOfKnowledgeEnergy">0</string>
+
+    <string name="CadaverousArmor">Cadaverous Armor</string>
+    <string name="CadaverousArmorDesc">Add 1 red dice and 3 green dices to your dice pool. Reroll +1.</string>
+    <string name="CadaverousArmorType">Leather</string>
+    <string name="CadaverousArmorLvl">5</string>
+    <string name="CadaverousArmorCost">18</string>
+    <string name="CadaverousArmorEnergy">0</string>
+
+    <string name="ChainedEssenceOfEranikus">Chained Essence of Eranikus</string>
+    <string name="ChainedEssenceOfEranikusDesc">Start of your Place Tokens step : Discard this card to gain Attrition +2. If more than one opponent is participating in the combat, gain an additional Attrition +4.</string>
+    <string name="ChainedEssenceOfEranikusType">Trinket</string>
+    <string name="ChainedEssenceOfEranikusLvl">4</string>
+    <string name="ChainedEssenceOfEranikusCost">14</string>
+    <string name="ChainedEssenceOfEranikusEnergy">0</string>
+
+    <string name="Deathblow">Deathblow</string>
+    <string name="DeathblowDesc">Add 3 red dices to your dice pool. End of your Dice Pool step : Spot one 7+ red dice to roll  an additional red dice</string>
+    <string name="DeathblowType">Sword</string>
+    <string name="DeathblowLvl">4</string>
+    <string name="DeathblowCost">14</string>
+    <string name="DeathblowEnergy">0</string>
+
+    <string name="DeathchillArmor">Deathchill Armor</string>
+    <string name="DeathchillArmorDesc">Add 4 green dices to your dice pool.</string>
+    <string name="DeathchillArmorType">Sword</string>
+    <string name="DeathchillArmorLvl">4</string>
+    <string name="DeathchillArmorCost">17</string>
+    <string name="DeathchillArmorEnergy">0</string>
+
+    <string name="DragonscaleArmor">Dragonscale Armor</string>
+    <string name="DragonscaleArmorDesc">Add 4 green dices to your dice pool. Reroll +1. You are immune to the special ability of the Drake creature.</string>
+    <string name="DragonscaleArmorType">Sword</string>
+    <string name="DragonscaleArmorLvl">5</string>
+    <string name="DragonscaleArmorCost">20</string>
+    <string name="DragonscaleArmorEnergy">0</string>
+
+    <string name="EarthenRod">Earthen Rod</string>
+    <string name="EarthenRodDesc">Add 2 blue dices and 1 red dice to your dice pool. End of your Dice Pool step : Spot one 7+ blue dice to roll and additional blue dice</string>
+    <string name="EarthenRodType">Sword</string>
+    <string name="EarthenRodLvl">5</string>
+    <string name="EarthenRodCost">20</string>
+    <string name="EarthenRodEnergy">0</string>
+
+    <string name="FlamestriderRobes">Flamestrider Robes</string>
+    <string name="FlamestriderRobesDesc">Add 3 green dices to your dice pool. Reroll +1. While equipped, your Health capacity is increased by 2.</string>
+    <string name="FlamestriderRobesType">Leather</string>
+    <string name="FlamestriderRobesLvl">4</string>
+    <string name="FlamestriderRobesCost">14</string>
+    <string name="FlamestriderRobesEnergy">0</string>
+
+    <string name="FlamingIncinerator">Flaming Incinerator</string>
+    <string name="FlamingIncineratorDesc">Add 3 blue dices to your dice pool. End of your Reroll step : For each 8 blue dice you spot, remove 1 armor token from your opponents defense box.</string>
+    <string name="FlamingIncineratorType">Wand</string>
+    <string name="FlamingIncineratorLvl">4</string>
+    <string name="FlamingIncineratorCost">13</string>
+    <string name="FlamingIncineratorEnergy">0</string>
+
+    <string name="FreeActionPotion">Flamestrider Robes</string>
+    <string name="FreeActionPotionDesc">Does not count towards your Bag limit. Start of your faction turn : Discard this card to take one additional action this faction turn.</string>
+    <string name="FreeActionPotionType">Potion</string>
+    <string name="FreeActionPotionLvl">5</string>
+    <string name="FreeActionPotionCost">19</string>
+    <string name="FreeActionPotionEnergy">0</string>
+
+    <string name="GorewoodBow">Gorewood Bow</string>
+    <string name="GorewoodBowDesc">Add 4 blue dices to your dice pool. Reroll +1. While equipped, your Energy capacity is increased by 2.</string>
+    <string name="GorewoodBowType">Leather</string>
+    <string name="GorewoodBowLvl">5</string>
+    <string name="GorewoodBowCost">19</string>
+    <string name="GorewoodBowEnergy">0</string>
+
+    <string name="GrandMarshalsPunisher">Grand Marshal\'s Punisher</string>
+    <string name="GrandMarshalsPunisherDesc">Add 3 red dices to your dice pool. End of your Reroll step : Unequip this card to change two red dices into two 8 red dices.</string>
+    <string name="GrandMarshalsPunisherType">Mace</string>
+    <string name="GrandMarshalsPunisherLvl">4</string>
+    <string name="GrandMarshalsPunisherCost">14</string>
+    <string name="GrandMarshalsPunisherEnergy">0</string>
+
+    <string name="HameyasSlayer">Hameya\'s Slayer</string>
+    <string name="HameyasSlayerDesc">Add 3 red dices and 1 green dice to your dice pool. Start of your Place Tokens step : If it is at least the second round of combat, place 1 hit token in the damage box.</string>
+    <string name="HameyasSlayerType">Leather</string>
+    <string name="HameyasSlayerLvl">5</string>
+    <string name="HameyasSlayerCost">18</string>
+    <string name="HameyasSlayerEnergy">0</string>
+
+    <string name="HammerOfTheNorthWind">Hammer of the North Wind</string>
+    <string name="HammerOfTheNorthWindDesc">Add 3 red dices and 1 green dice to your dice pool. End of your Reroll step : Spot ont 9 red dice to lower the Threat value of all opponents by 1 until the end of your Attack phase.</string>
+    <string name="HammerOfTheNorthWindType">Mace</string>
+    <string name="HammerOfTheNorthWindLvl">5</string>
+    <string name="HammerOfTheNorthWindCost">20</string>
+    <string name="HammerOfTheNorthWindEnergy">0</string>
+
+    <string name="LostKrisOfZedd">Lost Kris of Zedd</string>
+    <string name="LostKrisOfZeddDesc">Add 3 red dices to your dice pool. End of your Reroll step : Change up two 3+ red dice into 8 blue dice.</string>
+    <string name="LostKrisOfZeddType">Sword</string>
+    <string name="LostKrisOfZeddLvl">4</string>
+    <string name="LostKrisOfZeddCost">14</string>
+    <string name="LostKrisOfZeddEnergy">0</string>
+
+    <string name="LuckyCharm">Lucky Charm</string>
+    <string name="LuckyCharmDesc">End of your Reroll step : Discard this card to change two red or blue dices into two 8 red or blue dice.</string>
+    <string name="LuckyCharmType">Trinket</string>
+    <string name="LuckyCharmLvl">4</string>
+    <string name="LuckyCharmCost">14</string>
+    <string name="LuckyCharmEnergy">0</string>
+
+    <string name="MartinThunder">Martin Thunder</string>
+    <string name="MartinThunderDesc">Add 4 red dices to your dice pool. End of your Place Tokens step : Spot three 8 red dices to move all hit tokens in the defense box into the damage box.</string>
+    <string name="MartinThunderType">Mace</string>
+    <string name="MartinThunderLvl">5</string>
+    <string name="MartinThunderCost">20</string>
+    <string name="MartinThundersEnergy">0</string>
+
+    <string name="MitrhilFragBomb">Mitrhil Frag Bomb</string>
+    <string name="MitrhilFragBombDesc">Start of your Dice Pool step : Discard this card to choose an enemy participating character. That character receives 2 stun token and loses 2 Health.</string>
+    <string name="MitrhilFragBombType">Trinket</string>
+    <string name="MitrhilFragBombLvl">5</string>
+    <string name="MitrhilFragBombCost">17</string>
+    <string name="MitrhilFragBombEnergy">0</string>
+
+    <string name="NightfallDrap">Nightfall Drap</string>
+    <string name="NightfallDrapDesc">Start of your Dice Pool step : For every 2 Energy you have available, add one green dice to your dice pool.</string>
+    <string name="NightfallDrapType">Cloth</string>
+    <string name="NightfallDrapLvl">5</string>
+    <string name="NightfallDrapCost">18</string>
+    <string name="NightfallDrapEnergy">0</string>
+
+    <string name="OpulentTunicOfTheWhale">Opulent Tunic of the Whale</string>
+    <string name="OpulentTunicOfTheWhaleDesc">Add 3 green dices to your dice pool. Reroll +1.</string>
+    <string name="OpulentTunicOfTheWhaleType">Cloth</string>
+    <string name="OpulentTunicOfTheWhaleLvl">4</string>
+    <string name="OpulentTunicOfTheWhaleCost">13</string>
+    <string name="OpulentTunicOfTheWhaleEnergy">0</string>
+
+    <string name="OrbOfDraconicEnergy">Orb of Draconic Energy</string>
+    <string name="OrbOfDraconicEnergyDesc">During your Rest action : For each Energy that you regain, you may instead place the Energy token this card. Start of your Dice Pool step : Spend up to 2 Energy tokens from this card. Regain 1 Energy for each Energy token you spend.</string>
+    <string name="OrbOfDraconicEnergyType">Trinket</string>
+    <string name="OrbOfDraconicEnergyLvl">4</string>
+    <string name="OrbOfDraconicEnergyCost">15</string>
+    <string name="OrbOfDraconicEnergyEnergy">0</string>
+
+    <string name="PotionOfBerserking">Potion of Berserking</string>
+    <string name="PotionOfBerserkingDesc">Does not count towards your Bag limit. Start of your Dice Pool step : Discard this card to add 3 red dices to your dice pool, but you may not roll any green dice during this Dice Pool step. You may only use one Potion per combat round.</string>
+    <string name="PotionOfBerserkingType">Potion</string>
+    <string name="PotionOfBerserkingLvl">4</string>
+    <string name="PotionOfBerserkingCost">15</string>
+    <string name="PotionOfBerserkingEnergy">0</string>
+
+    <string name="RapidFireGloves">Rapid Fire Gloves</string>
+    <string name="RapidFireGlovesDesc">Start of your Dice Pool step : If you have a bow or Gun equipped, add 1 blue dice to your dice pool. Reroll +2.</string>
+    <string name="RapidFireGlovesType">Gauntlet - Leather</string>
+    <string name="RapidFireGlovesLvl">4</string>
+    <string name="RapidFireGlovesCost">14</string>
+    <string name="RapidFireGlovesEnergy">0</string>
+
+    <string name="RoyalHighmarkVestments">Royal Highmark Vestments</string>
+    <string name="RoyalHighmarkVestmentsDesc">Add 3 green dices to your dice pool. Reroll +2.</string>
+    <string name="RoyalHighmarkVestmentsType">Leather</string>
+    <string name="RoyalHighmarkVestmentsLvl">5</string>
+    <string name="RoyalHighmarkVestmentsCost">17</string>
+    <string name="RoyalHighmarkVestmentsEnergy">0</string>
+
+    <string name="SatyrsBow">Satyr\'s Bow</string>
+    <string name="SatyrsBowDesc">Add 3 blue dices to your dice pool. End of your Reroll step : Change the result of up to two separate blue dices, so that each dice\'s new value is one number higher (to a maximum value of 8).</string>
+    <string name="SatyrsBowType">Bow</string>
+    <string name="SatyrsBowLvl">4</string>
+    <string name="SatyrsBowCost">13</string>
+    <string name="SatyrsBowEnergy">0</string>
+
+    <string name="ScreechingBow">Screeching Bow</string>
+    <string name="ScreechingBowDesc">Add 3 blue dices to your dice pool. Reroll +2.</string>
+    <string name="ScreechingBowType">Bow</string>
+    <string name="ScreechingBowLvl">4</string>
+    <string name="ScreechingBowCost">14</string>
+    <string name="ScreechingBowEnergy">0</string>
+
+    <string name="SniperScope">Sniper Scope</string>
+    <string name="SniperScopeDesc">If you have a Bow or Gun equipped, gain Reroll +3.</string>
+    <string name="SniperScopeType">Scope - Bow or Gun</string>
+    <string name="SniperScopeLvl">4</string>
+    <string name="SniperScopeCost">14</string>
+    <string name="SniperScopeEnergy">0</string>
+
+    <string name="SoulHarvester">Soul Harvester</string>
+    <string name="SoulHarvesterDesc">Add 3 red dices to your dice pool. End of your Reroll Step : Remove two 8 red dices from your dice pool to place 3 hit tokens in the damage box.</string>
+    <string name="SoulHarvesterType">Staff</string>
+    <string name="SoulHarvesterLvl">4</string>
+    <string name="SoulHarvesterCost">13</string>
+    <string name="SoulHarvesterEnergy">0</string>
+
+    <string name="SpireOfHakkar">Spire of Hakkar</string>
+    <string name="SpireOfHakkarDesc">Add 3 red dices to your dice pool. End of your Dice Pool step : Spot one 8  red dice to roll an additional 3 green dices.</string>
+    <string name="SpireOfHakkarType">Staff</string>
+    <string name="SpireOfHakkarLvl">4</string>
+    <string name="SpireOfHakkarCost">15</string>
+    <string name="SpireOfHakkarEnergy">0</string>
+
+    <string name="StaffOfTheHaleMagefire">Staff of the Hale Magefire</string>
+    <string name="StaffOfTheHaleMagefireDesc">Add 1 red dice to your dice pool. During your Place Tokens step : For each hit token you place in the defense box, you may also place 1 hit token in the damage box.</string>
+    <string name="StaffOfTheHaleMagefireType">Staff</string>
+    <string name="StaffOfTheHaleMagefireLvl">5</string>
+    <string name="StaffOfTheHaleMagefireCost">17</string>
+    <string name="StaffOfTheHaleMagefireEnergy">0</string>
+
+    <string name="StaffOfProtection">Staff of Protection</string>
+    <string name="StaffOfProtectionDesc">Add 3 red dices to your dice pool. End of your Reroll step : Place 1 armor token in the defense box for each 8 red dice you spot.</string>
+    <string name="StaffOfProtectionType">Staff</string>
+    <string name="StaffOfProtectionLvl">4</string>
+    <string name="StaffOfProtectionCost">14</string>
+    <string name="StaffOfProtectionEnergy">0</string>
+
+    <string name="SwiftnessPotion">Swiftness Potion</string>
+    <string name="SwiftnessPotionDesc">Does not count towards your Bag limit. Start of your Travel action : Discard this card to move one additional region.</string>
+    <string name="SwiftnessPotionType">Potion</string>
+    <string name="SwiftnessPotionLvl">4</string>
+    <string name="SwiftnessPotionCost">13</string>
+    <string name="SwiftnessPotionEnergy">0</string>
+
+    <string name="TaranSmasher">Taran Smasher</string>
+    <string name="TaranSmasherDesc">Add 4 red dices to your dice pool. End of your Dice Pool step : You may spend X Energy to gain Reroll +X.</string>
+    <string name="TaranSmasherType">Mace</string>
+    <string name="TaranSmasherLvl">5</string>
+    <string name="TaranSmasherCost">19</string>
+    <string name="TaranSmasherEnergy">0</string>
+
+    <string name="Tenderloin">Tenderloin</string>
+    <string name="TenderloinDesc">Does not count towards your Bag limit. Start of your Travel action : Discard this card to regain Health and Energy up to your capacity. You may only move one region during this Travel action.</string>
+    <string name="TenderloinType">Food</string>
+    <string name="TenderloinLvl">5</string>
+    <string name="TenderloinCost">16</string>
+    <string name="TenderloinEnergy">0</string>
+
+    <string name="TouchOfChaos">Touch of Chaos</string>
+    <string name="TouchOfChaosDesc">Add 3 blue dices to your dice pool. End of your Dice Pool step : For each _ blue dice you spot, you may  spend 1 Energy to roll an additional red dice.</string>
+    <string name="TouchOfChaosType">Wand</string>
+    <string name="TouchOfChaosLvl">4</string>
+    <string name="TouchOfChaosCost">14</string>
+    <string name="TouchOfChaosEnergy">0</string>
+
+    <string name="WarMaul">War Maul</string>
+    <string name="WarMaulDesc">Add 3 red dices to your dice pool. End of your Reroll step : Spot one 8 red dice to place 2 armor tokens in the defense box.</string>
+    <string name="WarMaulType">Mace</string>
+    <string name="WarMaulLvl">4</string>
+    <string name="WarMaulCost">16</string>
+    <string name="WarMaulEnergy">0</string>
+
+    <string name="AurastoneHammer">Aurastone Hammer</string>
+    <string name="AurastoneHammerDesc">Add 3 red dices to your dice pool. End of your Reroll step : Spot up to three 8 red dice. Regain 1 Energy for each 8 red dice you spot.</string>
+    <string name="AurastoneHammerType">Mace</string>
+    <string name="AurastoneHammerLvl">3</string>
+    <string name="AurastoneHammerCost">12</string>
+    <string name="AurastoneHammerEnergy">0</string>
+
+    <string name="BattlesmasherOfTheBear">Battlesmasher of the Bear</string>
+    <string name="BattlesmasherOfTheBearDesc">Add 2 red dices to your dice pool. End of your Reroll step : Spot one 7+ red dice to place 1 hit token in the damage box.</string>
+    <string name="BattlesmasherOfTheBearType">Mace</string>
+    <string name="BattlesmasherOfTheBearLvl">3</string>
+    <string name="BattlesmasherOfTheBearCost">9</string>
+    <string name="BattlesmasherOfTheBearEnergy">0</string>
+
+    <string name="BloodlordsDefender">Bloodlord\'s Defender</string>
+    <string name="BloodlordsDefenderDesc">Add 1 red dice and 3 green dices to your dice pool.</string>
+    <string name="BloodlordsDefenderType">Sword</string>
+    <string name="BloodlordsDefenderLvl">3</string>
+    <string name="BloodlordsDefenderCost">11</string>
+    <string name="BloodlordsDefenderEnergy">0</string>
+
+    <string name="BludgeonOfTheGrinningDog">Bludgeon of the Grinning Dog</string>
+    <string name="BludgeonOfTheGrinningDogDesc">Add 3 red dices to your dice pool. End of your Reroll step : Spot one 8 red dice to place 2 stun tokens on an enemy participating character.</string>
+    <string name="BludgeonOfTheGrinningDogType">Staff</string>
+    <string name="BludgeonOfTheGrinningDogLvl">3</string>
+    <string name="BludgeonOfTheGrinningDogCost">13</string>
+    <string name="BludgeonOfTheGrinningDogEnergy">0</string>
+
+    <string name="BoneStuddedLeather">Bone-Studded Leather</string>
+    <string name="BoneStuddedLeatherDesc">Add 3 green dices to your dice pool.</string>
+    <string name="BoneStuddedLeatherType">Leather</string>
+    <string name="BoneStuddedLeatherLvl">3</string>
+    <string name="BoneStuddedLeatherCost">10</string>
+    <string name="BoneStuddedLeatherEnergy">0</string>
+
+    <string name="CloakOfVailedShadow">Cloak of Vailed Shadow</string>
+    <string name="CloakOfVailedShadowDesc">Add 1 green dices to your dice pool. Start of your action : You may choose to take a Travel action even if your character is in a region containing one or more independent creatures.</string>
+    <string name="CloakOfVailedShadowType">Cloth</string>
+    <string name="CloakOfVailedShadowLvl">3</string>
+    <string name="CloakOfVailedShadowCost">10</string>
+    <string name="CloakOfVailedShadowEnergy">0</string>
+
+    <string name="CobaltCrusher">Cobalt Crusher</string>
+    <string name="CobaltCrusherDesc">Add 2 red dices to your dice pool. End of your Reroll step : Spot one 8 red dice to place 1 hit token in the damage box for each participating opponent.</string>
+    <string name="CobaltCrusherType">Mace</string>
+    <string name="CobaltCrusherLvl">3</string>
+    <string name="CobaltCrusherCost">10</string>
+    <string name="CobaltCrusherEnergy">0</string>
+
+    <string name="CommandersCrown">Commander\'s Crown</string>
+    <string name="CommandersCrownDesc">Add 1 blue dice to your dice pool. Reroll +1.</string>
+    <string name="CommandersCrownType">Helmet - Cloth</string>
+    <string name="CommandersCrownLvl">3</string>
+    <string name="CommandersCrownCost">11</string>
+    <string name="CommandersCrownEnergy">0</string>
+
+    <string name="DarkwaterTalwar">Darkwater Talwar</string>
+    <string name="DarkwaterTalwarDesc">Add 3 red dices to your dice pool. End of your Reroll step : You may change one 3+ red dice into a 6 red dice.</string>
+    <string name="DarkwaterTalwarType">Sword</string>
+    <string name="DarkwaterTalwarLvl">3</string>
+    <string name="DarkwaterTalwarCost">10</string>
+    <string name="DarkwaterTalwarEnergy">0</string>
+
+    <string name="DecapitatingSword">Decapitating Sword</string>
+    <string name="DecapitatingSwordDesc">Add 3 red dices to your dice pool. Reroll +1.</string>
+    <string name="DecapitatingSwordType">Sword</string>
+    <string name="DecapitatingSwordLvl">3</string>
+    <string name="DecapitatingSwordCost">12</string>
+    <string name="DecapitatingSwordEnergy">0</string>
+
+    <string name="DrakeFangTalisman">Drake Fang Talisman</string>
+    <string name="DrakeFangTalismanDesc">Add 1 red dice and 1 green dice to your dice pool.</string>
+    <string name="DrakeFangTalismanType">Trinket</string>
+    <string name="DrakeFangTalismanLvl">3</string>
+    <string name="DrakeFangTalismanCost">12</string>
+    <string name="DrakeFangTalismanEnergy">0</string>
+
+    <string name="DustfallRobes">Dustfall Robes</string>
+    <string name="DustfallRobesDesc">Add 2 green dices to your dice pool. Reroll +1.</string>
+    <string name="DustfallRobesType">Cloth</string>
+    <string name="DustfallRobesLvl">3</string>
+    <string name="DustfallRobesCost">8</string>
+    <string name="DustfallRobesEnergy">0</string>
+
+    <string name="EnchantedGoldBloodrobe">Enchanted Gold Bloodrobe</string>
+    <string name="EnchantedGoldBloodrobeDesc">Add 2 green dices to your dice pool. Reroll +2.</string>
+    <string name="EnchantedGoldBloodrobeType">Leather</string>
+    <string name="EnchantedGoldBloodrobeLvl">3</string>
+    <string name="EnchantedGoldBloodrobeCost">12</string>
+    <string name="EnchantedGoldBloodrobeEnergy">0</string>
+
+    <string name="ExplorersKnapsack">Explorer\'s Knapsack</string>
+    <string name="ExplorersKnapsackDesc">You may store 9 additional items in your bag.</string>
+    <string name="ExplorersKnapsackType">Trinket</string>
+    <string name="ExplorersKnapsackLvl">3</string>
+    <string name="ExplorersKnapsackCost">10</string>
+    <string name="ExplorersKnapsackEnergy">0</string>
+
+    <string name="Firestarter">Firestarter</string>
+    <string name="FirestarterDesc">Add 1 blue dice and 1 red dice to your dice pool. End of your Dice Pool step : Spot one 7+ red or blue dice to roll an additional blue dice and red dice.</string>
+    <string name="FirestarterType">Wand</string>
+    <string name="FirestarterLvl">3</string>
+    <string name="FirestarterCost">11</string>
+    <string name="FirestarterEnergy">0</string>
+
+    <string name="GlyphedHelm">Glyphed Helm</string>
+    <string name="GlyphedHelmDesc">Reroll +1. End of your Dice pool step : Spot one 7+ green dice to roll an additional green dice.</string>
+    <string name="GlyphedHelmType">Helmet - Leather</string>
+    <string name="GlyphedHelmLvl">3</string>
+    <string name="GlyphedHelmCost">7</string>
+    <string name="GlyphedHelmEnergy">0</string>
+
+    <string name="AdvisorsGnarledStaff">Advisor\'s Gnarled Staff</string>
+    <string name="AdvisorsGnarledStaffDesc">Add 2 red dices and 1 green dice to your dice pool. Start of your Dice Pool step : You may spend up to 3 Health. Regain 1 Energy for each Health you spend.</string>
+    <string name="AdvisorsGnarledStaffType">Staff</string>
+    <string name="AdvisorsGnarledStaffLvl">3</string>
+    <string name="AdvisorsGnarledStaffCost">10</string>
+    <string name="AdvisorsGnarledStaffEnergy">0</string>
+
+    <string name="GreaterAgilityPotion">Greater Agility Potion</string>
+    <string name="GreaterAgilityPotionDesc">Does not count towards your Bag limit. End of your Dice Pool step : Discard this card to gain Reroll +3. You may only use one Potion per combat round.</string>
+    <string name="GreaterAgilityPotionType">Potion</string>
+    <string name="GreaterAgilityPotionLvl">4</string>
+    <string name="GreaterAgilityPotionCost">11</string>
+    <string name="GreaterAgilityPotionEnergy">0</string>
+
+    <string name="GreaterHealingPotion">Greater Healing Potion</string>
+    <string name="GreaterHealingPotionDesc">Does not count towards your Bag limit. After you lose a Health : Discard this card to regain up to 3 Health. You may only use one Potion per combat round.</string>
+    <string name="GreaterHealingPotionType">Potion</string>
+    <string name="GreaterHealingPotionLvl">4</string>
+    <string name="GreaterHealingPotionCost">1</string>
+    <string name="GreaterHealingPotionEnergy">0</string>
+
+    <string name="GreaterManaPotion">Greater Mana Potion</string>
+    <string name="GreaterManaPotionDesc">Does not count towards your Bag limit. After you spend an Energy : Discard this card to regain up to 3 Energy. You may only use one Potion per combat round.</string>
+    <string name="GreaterManaPotionType">Leather</string>
+    <string name="GreaterManaPotionLvl">4</string>
+    <string name="GreaterManaPotionCost">10</string>
+    <string name="GreaterManaPotionEnergy">0</string>
+
+    <string name="LesserAgilityPotion">Lesser Agility Potion</string>
+    <string name="LesserAgilityPotionDesc">Does not count towards your Bag limit. End of your Dice Pool step : Discard this card to gain Reroll +2. You may only use one Potion per combat round.</string>
+    <string name="LesserAgilityPotionType">Leather</string>
+    <string name="LesserAgilityPotionLvl">3</string>
+    <string name="LesserAgilityPotionCost">7</string>
+    <string name="LesserAgilityPotionEnergy">0</string>
+
+    <string name="LesserHealingPotion">Lesser Healing Potion</string>
+    <string name="LesserHealingPotionDesc">Does not count towards your Bag limit. After you lose a Health : Discard this card to regain up to 2 Health. You may only use one Potion per combat round.</string>
+    <string name="LesserHealingPotionType">Leather</string>
+    <string name="LesserHealingPotionLvl">3</string>
+    <string name="LesserHealingPotionCost">7</string>
+    <string name="LesserHealingPotionEnergy">0</string>
+
+    <string name="lesserManaPotion">Lesser Mana Potion</string>
+    <string name="LesserManaPotionDesc">Does not count towards your Bag limit. After you spend an Energy : Discard this card to regain up to 2 Energy. You may only use one Potion per combat round.</string>
+    <string name="LesserManaPotionType">Leather</string>
+    <string name="LesserManaPotionLvl">3</string>
+    <string name="LesserManaPotionCost">7</string>
+    <string name="LesserManaPotionEnergy">0</string>
+
+    <string name="OblivionsTouch">Oblivion\'s Touch</string>
+    <string name="OblivionsTouchDesc">Add 3 blue dices to your dice pool. Start to your Resolution step : Gain 1 Energy for each opponent that is defeated this round.</string>
+    <string name="OblivionsTouchType">Wand</string>
+    <string name="OblivionsTouchLvl">3</string>
+    <string name="OblivionsTouchCost">9</string>
+    <string name="OblivionsTouchEnergy">0</string>
+
+    <string name="ObsidianEdgedBlade">Obsidian Edged Blade</string>
+    <string name="ObsidianEdgedBladeDesc">Add 2 red dices to your dice pool. End of your Dice Pool step : Place 1 hit token in the damage box for each 8 red dice you spot, then lise 1 Health for each 1 red dice in your dice pool.</string>
+    <string name="ObsidianEdgedBladeType">Sword</string>
+    <string name="ObsidianEdgedBladeLvl">3</string>
+    <string name="ObsidianEdgedBladeCost">12</string>
+    <string name="ObsidianEdgedBladeEnergy">0</string>
+
+    <string name="OrnateBlunderbuss">Ornate Blunderbuss</string>
+    <string name="OrnateBlunderbussDesc">Add 3 blue dices and 1 red dice to your dice pool. End of your Dice Pool step : If you hace more 1 blue dice than 8 blue dice in your dice pool, you must discard this card and lose 2 Health.</string>
+    <string name="OrnateBlunderbussType">Gun</string>
+    <string name="OrnateBlunderbussLvl">3</string>
+    <string name="OrnateBlunderbussCost">8</string>
+    <string name="OrnateBlunderbussEnergy">0</string>
+
+    <string name="PestilentWand">Pestilent Wand</string>
+    <string name="PestilentWandDesc">Add 2 blue dices to your dice pool. End of your Reroll step : Spot one 9 blue dice to lower the Threat value of all opponents by 1 until the end of your Attack phase.</string>
+    <string name="PestilentWandType">Wandr</string>
+    <string name="PestilentWandLvl">3</string>
+    <string name="PestilentWandCost">13</string>
+    <string name="PestilentWandEnergy">0</string>
+
+    <string name="RavenwoodBow">Ravenwood Bow</string>
+    <string name="RavenwoodBowDesc">Add 3 blue dices to your dice pool. Reroll +1.</string>
+    <string name="RavenwoodBowType">Bow</string>
+    <string name="RavenwoodBowLvl">3</string>
+    <string name="RavenwoodBowCost">12</string>
+    <string name="RavenwoodBowEnergy">0</string>
+
+    <string name="RingOfEternalJustice">Ring of Eternal Justice</string>
+    <string name="RingOfEternalJusticeDesc">Add 2 blue dices to your dice pool.</string>
+    <string name="RingOfEternalJusticeType">Leather</string>
+    <string name="RingOfEternalJusticeLvl">3</string>
+    <string name="RingOfEternalJusticeCost">13</string>
+    <string name="RingOfEternalJusticeEnergy">0</string>
+
+    <string name="RodOfCorrosion">Rod of Corrosion</string>
+    <string name="RodOfCorrosionDesc">Add 2 blue dices to your dice pool. Start of each combat round : Place 1 hit token on this card. You gain Attrition +1 for each hit token on this card. At the end of combat, lose all hit token on this card.</string>
+    <string name="RodOfCorrosionType">Wand</string>
+    <string name="RodOfCorrosionLvl">3</string>
+    <string name="RodOfCorrosionCost">11</string>
+    <string name="RodOfCorrosionEnergy">0</string>
+
+    <string name="ScrollOfGreatSpirit">Scroll of Great Spirit</string>
+    <string name="ScrollOfGreatSpiritDesc">Start of your Dice Pool step : Discard this card to add 3 blue dice to your dice pool. You may only use on Scroll per combat round.</string>
+    <string name="ScrollOfGreatSpiritType">Scroll</string>
+    <string name="ScrollOfGreatSpiritLvl">3</string>
+    <string name="ScrollOfGreatSpiritCost">8</string>
+    <string name="ScrollOfGreatSpiritEnergy">0</string>
+
+    <string name="ScrollOfGreatStrength">Scroll of Great Strength</string>
+    <string name="ScrollOfGreatStrengthDesc">Start of your Dice Pool step : Discard this card to add 3 red dice to your dice pool. You may only use on Scroll per combat round.</string>
+    <string name="ScrollOfGreatStrengthType">Scroll</string>
+    <string name="ScrollOfGreatStrengthLvl">3</string>
+    <string name="ScrollOfGreatStrengthCost">7</string>
+    <string name="ScrollOfGreatStrengthEnergy">0</string>
+
+    <string name="ShrapnelBlaster">Shrapnel Blaster</string>
+    <string name="ShrapnelBlasterDesc">Add 4 blue dices to your dice pool, but you may not reroll any blue dice during this Reroll step.</string>
+    <string name="ShrapnelBlasterType">Gun</string>
+    <string name="ShrapnelBlasterLvl">3</string>
+    <string name="ShrapnelBlasterCost">10</string>
+    <string name="ShrapnelBlasterEnergy">0</string>
+
+    <string name="SkullanceShield">Skullance Shield</string>
+    <string name="SkullanceShieldDesc">Add 1 green dice to your dice pool. End of your Dice Pool step : Spot one 8 green dice to roll and additional green dice.</string>
+    <string name="SkullanceShieldType">Shield - Mail</string>
+    <string name="SkullanceShieldRobesLvl">3</string>
+    <string name="SkullanceShieldCost">11</string>
+    <string name="SkullanceShieldEnergy">0</string>
+
+    <string name="SkullsplittingCrossbow">Skullsplitting Crossbow</string>
+    <string name="SkullsplittingCrossbowDesc">Add 2 blue dices to your dice pool. End of your Dice Pool step : Spot one 7+ blue dice to roll an additional 2 blue dices.</string>
+    <string name="SkullsplittingCrossbowType">Bow</string>
+    <string name="SkullsplittingCrossbowLvl">3</string>
+    <string name="SkullsplittingCrossbowCost">11</string>
+    <string name="SkullsplittingCrossbowEnergy">0</string>
+
+    <string name="SolidIronMaul">Solid Iron Maul</string>
+    <string name="SolidIronMaulDesc">Add 3 red dices to your dice pool. Attrition +1.</string>
+    <string name="SolidIronMaulType">Mace</string>
+    <string name="SolidIronMaulLvl">3</string>
+    <string name="SolidIronMaulCost">13</string>
+    <string name="SolidIronMaulEnergy">0</string>
+
+    <string name="TalismanOfBindingShard">Talisman of Binding Shard</string>
+    <string name="TalismanOfBindingShardDesc">During the Defense phase : If you lose at least 1 Health, place 1 hit token in the damage box.</string>
+    <string name="TalismanOfBindingShardType">Trinket</string>
+    <string name="TalismanOfBindingShardLvl">3</string>
+    <string name="TalismanOfBindingShardCost">11</string>
+    <string name="TalismanOfBindingShardEnergy">0</string>
+
+    <string name="TalismanOfProtection">Talisman of Protection</string>
+    <string name="TalismanOfProtectionDesc">End of your Dice Pool step : You may roll up to two 1 red or blue dice.This ability is separate from your Reroll value.</string>
+    <string name="TalismanOfProtectionType">Scroll</string>
+    <string name="TalismanOfProtectionLvl">3</string>
+    <string name="TalismanOfProtectionCost">12</string>
+    <string name="TalismanOfProtectionEnergy">0</string>
+
+    <string name="TortoiseArmor">Tortoise Armor</string>
+    <string name="TortoiseArmorDesc">Add 4 green dices to your dice pool. While equipped, you may only take one Travel action during each of your faction turns.</string>
+    <string name="TortoiseArmorType">Mail</string>
+    <string name="TortoiseArmorLvl">3</string>
+    <string name="TortoiseArmorCost">10</string>
+    <string name="TortoiseArmorEnergy">0</string>
+
+    <string name="WandOfEventide">Wand of Eventide</string>
+    <string name="WandOfEventideDesc">Add 3 blue dices to your dice pool.</string>
+    <string name="WandOfEventideType">Wand</string>
+    <string name="WandOfEventideLvl">3</string>
+    <string name="WandOfEventideCost">12</string>
+    <string name="WandOfEventideEnergy">0</string>
+
+    <string name="WarhornOfDread">Warhorn fDread</string>
+    <string name="WarhornOfDreadDesc">Start of your Dice Pool step : Remove one red or blue dice from your dice pool to lower the Threat value of all opponents by 1 until the end of your Attack phase.</string>
+    <string name="WarhornOfDreadType">Trinket</string>
+    <string name="WarhornOfDreadLvl">3</string>
+    <string name="WarhornOfDreadCost">13</string>
+    <string name="WarhornOfDreadEnergy">0</string>
+
+    <string name="WitchDoctorsCane">Witch Doctor\'s Cane</string>
+    <string name="WitchDoctorsCaneDesc">Add 3 red dices to your dice pool. Reroll +1.</string>
+    <string name="WitchDoctorsCaneType">Staff</string>
+    <string name="WitchDoctorsCaneLvl">3</string>
+    <string name="WitchDoctorsCaneCost">12</string>
+    <string name="WitchDoctorsCaneEnergy">0</string>
+
+    <string name="OneExp">One Experience Point</string>
+    <string name="OneExpDesc">You must immediately discard this card and receive 1 XP.</string>
+    <string name="OneExpType"> </string>
+    <string name="OneExpLvl"> </string>
+    <string name="OneExpCost"> </string>
+    <string name="OneExpEnergy"> </string>
+
+    <string name="TwoExp">Two Experience Point</string>
+    <string name="TwoExpDesc">You must immediately discard this card and receive 2 XP.</string>
+    <string name="TwoExpType"> </string>
+    <string name="TwoExpLvl"> </string>
+    <string name="TwoExpCost"> </string>
+    <string name="TwoExpEnergy"> </string>
+
+    <string name="AccurateSlugs">Accurate Slugs</string>
+    <string name="AccurateSlugsDesc">Start of your Reroll step : If you have a Gun equipped, discard this card to gain Reroll +2. YOu can only use one Ammo per combat round.</string>
+    <string name="AccurateSlugsType">Ammo</string>
+    <string name="AccurateSlugsLvl">1</string>
+    <string name="AccurateSlugsCost">2</string>
+    <string name="AccurateSlugsEnergy">0</string>
+
+    <string name="AdvancedTargetDummy">Advanced Target Dummy</string>
+    <string name="AdvancedTargetDummyDesc">When you equip this card, place 3 Health token on it. During the Defense phase : Instead of taking a wound, you may spend a Health token from this card. You must discard this card at the end of combat.</string>
+    <string name="AdvancedTargetDummyType">Trinket</string>
+    <string name="AdvancedTargetDummyLvl">3</string>
+    <string name="AdvancedTargetDummyCost">10</string>
+    <string name="AdvancedTargetDummyEnergy">0</string>
+
+    <string name="AmuletOfFortune">Amulet of Fortune</string>
+    <string name="AmuletOfFortuneDesc">Add 2 blue dices to your dice pool. End of your Dice Pool step : Spot one 7+ blue dice to roll an additional 2 blue dices.</string>
+    <string name="AmuletOfFortuneType">Trinket</string>
+    <string name="AmuletOfFortuneLvl">1</string>
+    <string name="AmuletOfFortuneCost">3</string>
+    <string name="AmuletOfFortuneEnergy">0</string>
+
+    <string name="AnimistsCaress">Animist\'s Caress</string>
+    <string name="AnimistsCaressDesc">Increase your Energy capacity and Health capacity by 1 each. When you equip this item, immediately gain 1 Energy and 1 Health. Discard this card at the end of combat.</string>
+    <string name="AnimistsCaressType">Trinket</string>
+    <string name="AnimistsCaressLvl">3</string>
+    <string name="AnimistsCaressCost">8</string>
+    <string name="AnimistsCaressEnergy">0</string>
+
+    <string name="ArcaneBomb">Arcane Bomb</string>
+    <string name="ArcaneBombDesc">Start of your Dice Pool step : Discard this card and choose an enemy participating character. That character must lose 2 energy and 1 Health.</string>
+    <string name="ArcaneBombType">Trinket</string>
+    <string name="ArcaneBombLvl">3</string>
+    <string name="ArcaneBombCost">9</string>
+    <string name="ArcaneBombEnergy">0</string>
+
+    <string name="ArcaniteDragonling">Arcanite Dragonling</string>
+    <string name="ArcaniteDragonlingDesc">When you equip this card, place 2 Health tokens on it. Add 2 red dices to your dice pool. During the Defense phase : Instead of taking a wound, you may spend a Health token from this card. You must discard this card at the end of combat.</string>
+    <string name="ArcaniteDragonlingType">Trinket</string>
+    <string name="ArcaniteDragonlingLvl">4</string>
+    <string name="ArcaniteDragonlingCost">16</string>
+    <string name="ArcaniteDragonlingEnergy">0</string>
+
+    <string name="BagOfGoldI">Bag of Gold</string>
+    <string name="BagOfGoldIDesc">Start of your Action : Discard this card to receive 3 gold.</string>
+    <string name="BagOfGoldIType">Trinket</string>
+    <string name="BagOfGoldILvl">1</string>
+    <string name="BagOfGoldICost">3</string>
+    <string name="BagOfGoldIEnergy">0</string>
+
+    <string name="BagOfGoldII">Bag of Gold</string>
+    <string name="BagOfGoldIIDesc">Start of your Action : Discard this card to receive 5 gold.</string>
+    <string name="BagOfGoldIIType">Trinket</string>
+    <string name="BagOfGoldIILvl">1</string>
+    <string name="BagOfGoldIICost">5</string>
+    <string name="BagOfGoldIIEnergy">0</string>
+
+    <string name="BagOfGoldIII">Bag of Gold</string>
+    <string name="BagOfGoldIIIDesc">Start of your Action : Discard this card to receive 7 gold.</string>
+    <string name="BagOfGoldIIIType">Trinket</string>
+    <string name="BagOfGoldIIILvl">2</string>
+    <string name="BagOfGoldIIICost">7</string>
+    <string name="BagOfGoldIIIEnergy">0</string>
+
+    <string name="BandOfRumination">Band of Rumination</string>
+    <string name="BandOfRuminationDesc">Reroll +1. End of combat : Regain 1 Energy.</string>
+    <string name="BandOfRuminationType">Trinket</string>
+    <string name="BandOfRuminationLvl">2</string>
+    <string name="BandOfRuminationCost">5</string>
+    <string name="BandOfRuminationEnergy">0</string>
+
+    <string name="BandOfThePenitent">Band of the Penitent</string>
+    <string name="BandOfThePenitentDesc">End of your Dice Pool step : Change one 1 red or blue dice into a 8 green.</string>
+    <string name="BandOfThePenitentType">Trinket</string>
+    <string name="BandOfThePenitentLvl">2</string>
+    <string name="BandOfThePenitentCost">7</string>
+    <string name="BandOfThePenitentEnergy">0</string>
+
+    <string name="BlazefuryMedaillon">Blazefury Medaillon</string>
+    <string name="BlazefuryMedaillonDesc">End of your Reroll step : Spot one 7+ red dice to gain Attrition +1.</string>
+    <string name="BlazefuryMedaillonType">Trinket</string>
+    <string name="BlazefuryMedaillonLvl">2</string>
+    <string name="BlazefuryMedaillonCost">7</string>
+    <string name="BlazefuryMedaillonEnergy">0</string>
+
+    <string name="BookOfAlchemy">Book of Alchemy</string>
+    <string name="BookOfAlchemyDesc">When you use a Potion, you may immediately pay its gold cost to place the card back into your Bag instead of discarding it. Then unequip this card.</string>
+    <string name="BookOfAlchemyType">Trinket</string>
+    <string name="BookOfAlchemyLvl">1</string>
+    <string name="BookOfAlchemyCost">3</string>
+    <string name="BookOfAlchemyEnergy">0</string>
+
+    <string name="BottleOfPoison">Bottle of Poison</string>
+    <string name="BottleOfPoisonDesc">Start of your Place Tokens step : Discard this card to gain Attrition +1. You may only use one Potion per combat round.</string>
+    <string name="BottleOfPoisonType">Potion</string>
+    <string name="BottleOfPoisonLvl">1</string>
+    <string name="BottleOfPoisonCost">2</string>
+    <string name="BottleOfPoisonEnergy">0</string>
+
+    <string name="CelestialOrb">Celestial Orb</string>
+    <string name="CelestialOrbDesc">End of your Reroll step : Discard this card and spot one 7+ blue dice to roll an additional blue dice.</string>
+    <string name="CelestialOrbType">Trinket</string>
+    <string name="CelestialOrbLvl">1</string>
+    <string name="CelestialOrbCost">2</string>
+    <string name="CelestialOrbEnergy">0</string>
+
+    <string name="ChimaerokChops">Chimaerok Chops</string>
+    <string name="ChimaerokChopsDesc">Start of your action : Discard this card to regain any mic up to 4 Health and/or Energy.</string>
+    <string name="ChimaerokChopsType">Food</string>
+    <string name="ChimaerokChopsLvl">4</string>
+    <string name="ChimaerokChopsCost">13</string>
+    <string name="ChimaerokChopsEnergy">0</string>
+
+    <string name="CoarseWeightstone">Coarse Weightstone</string>
+    <string name="CoarseWeightstoneDesc">Start of your Dice Pool step : If you have a Mace equipped, discard this card to add a red dice to your dice pool.</string>
+    <string name="CoarseWeightstoneType">Trinket</string>
+    <string name="CoarseWeightstoneLvl">1</string>
+    <string name="CoarseWeightstoneCost">2</string>
+    <string name="CoarseWeightstoneEnergy">0</string>
+
+    <string name="ColdBasiliskEye">Cold Basilisk Eye</string>
+    <string name="ColdBasiliskEyeDesc">Start of your Dice Pool step : Discard this card to lower the Threat value of each opponent by 1 until the end of your Attack phase.</string>
+    <string name="ColdBasiliskEyeType">Trinket</string>
+    <string name="ColdBasiliskEyeLvl">2</string>
+    <string name="ColdBasiliskEyeCost">7</string>
+    <string name="ColdBasiliskEyeEnergy">0</string>
+
+    <string name="CounterattackLodestone">Counterattack Lodestone</string>
+    <string name="CounterattackLodestoneDesc">End of your Reroll step : Discard this card and spot one 7+ green dice to roll an additional red dice.</string>
+    <string name="CounterattackLodestoneType">Trinket</string>
+    <string name="CounterattackLodestoneLvl">1</string>
+    <string name="CounterattackLodestoneCost">2</string>
+    <string name="CounterattackLodestoneEnergy">0</string>
+
+    <string name="CrudeMap">Crude Map</string>
+    <string name="CrudeMapDesc">Start of your action : Discard this card to reveal the top card on your red Quest deck. place 6 gold and your character token in the region that you would have placed your quest creatures, then discard red Quest card. You may take this gold if you end a Travel action in that region.</string>
+    <string name="CrudeMapType">Trinket</string>
+    <string name="CrudeMapLvl">1</string>
+    <string name="CrudeMapCost">3</string>
+    <string name="CrudeMapEnergy">0</string>
+
+    <string name="CursedEyeOfPaleth">Cursed Eye of Paleth</string>
+    <string name="CursedEyeOfPalethDesc">End of your Dice Pool step : If you have at least one 1 blue dice in your dice pool, lose 1 Health and place 1 hit token in the defense box</string>
+    <string name="CursedEyeOfPalethType">Trinket</string>
+    <string name="CursedEyeOfPalethLvl">1</string>
+    <string name="CursedEyeOfPalethCost">3</string>
+    <string name="CursedEyeOfPalethEnergy">0</string>
+
+    <string name="DarkRune">Dark Rune</string>
+    <string name="DarkRuneDesc">Start of your Action : Discard this card to regain 2 Energy but you must lose 1 Health.</string>
+    <string name="DarkRuneType">Trinket</string>
+    <string name="DarkRuneLvl">1</string>
+    <string name="DarkRuneCost">2</string>
+    <string name="DarkRuneEnergy">0</string>
+
+    <string name="DefilersTalisman">Defiler\'s Talisman</string>
+    <string name="DefilersTalismanDesc">Add 1 green dice to your dice pool.</string>
+    <string name="DefilersTalismanType">Trinket</string>
+    <string name="DefilersTalismanLvl">2</string>
+    <string name="DefilersTalismanCost">7</string>
+    <string name="DefilersTalismanEnergy">0</string>
+
+    <string name="DimensionalRipper">Dimensional Ripper</string>
+    <string name="DimensionalRipperDesc">Using this card counts as an action. Roll a blue dice. If you roll a 1 or a 2, discard this card and the enemy faction places your character on any legal region. If you roll a 3+, place your character on any region with at least one of your faction\'s quest creatures.</string>
+    <string name="DimensionalRipperType">Trinket</string>
+    <string name="DimensionalRipperLvl">1</string>
+    <string name="DimensionalRipperCost">3</string>
+    <string name="DimensionalRipperEnergy">0</string>
+
+    <string name="DragonslayersRing">Dragonslayer\'s Ring</string>
+    <string name="DragonslayersRingDesc">Add 1 red dices to your dice pool. Reroll +1.</string>
+    <string name="DragonslayersRingType">Gun</string>
+    <string name="DragonslayersRingLvl">3</string>
+    <string name="DragonslayersRingCost">10</string>
+    <string name="DragonslayersRingEnergy">0</string>
+
+    <string name="DreamlessSleepPotion">Dreamless Sleep Potion</string>
+    <string name="DreamlessSleepPotionDesc">Using this card counts as an action. Discard this card to regain Health and Energy up to your capacity.</string>
+    <string name="DreamlessSleepPotionType">Potion</string>
+    <string name="DreamlessSleepPotionLvl">2</string>
+    <string name="DreamlessSleepPotionCost">4</string>
+    <string name="DreamlessSleepPotionEnergy">0</string>
+
+    <string name="EmberfuryTalisman">Emberfury Talisman</string>
+    <string name="EmberfuryTalismanDesc">End of your Reroll step : Discard this card to change the result of up to two separate red dice and blue dice, so that each dice\'s new value is one number higher (to a maximum value of 8).</string>
+    <string name="EmberfuryTalismanType">Trinket</string>
+    <string name="EmberfuryTalismanLvl">1</string>
+    <string name="EmberfuryTalismanCost">3</string>
+    <string name="EmberfuryTalismanEnergy">0</string>
+
+    <string name="EzThroDynamite">Ez-Thro Dynamite</string>
+    <string name="EzThroDynamiteDesc">Start of the first combat round : Discard this card and roll a blue dice. If you roll a 1 or 2, lose 2 Health. If you roll a 3+, place 2 hit tokens in the damage box.</string>
+    <string name="EzThroDynamiteType">Trinket</string>
+    <string name="EzThroDynamiteLvl">1</string>
+    <string name="EzThroDynamiteCost">2</string>
+    <string name="EzThroDynamiteEnergy">0</string>
+
+    <string name="FireRuby">Fire Ruby</string>
+    <string name="FireRubyDesc">Start of your Dice Pool step : Discard this card to add 1 blue dice to your dice pooland regain 1 Energy.</string>
+    <string name="FireRubyType">Trinket</string>
+    <string name="FireRubyLvl">2</string>
+    <string name="FireRubyCost">7</string>
+    <string name="FireRubyEnergy">0</string>
+
+    <string name="FriendlyGift">Friendly Gift</string>
+    <string name="FriendlyGiftDesc">Start of your action : If you are in a region with another friendly character, you may discard this card to have him or her draw a card from the Triangle Item deck. He or she may either take the item or discard it.</string>
+    <string name="FriendlyGiftType">Trinket</string>
+    <string name="FriendlyGiftLvl">1</string>
+    <string name="FriendlyGiftCost">2</string>
+    <string name="FriendlyGiftEnergy">0</string>
+
+    <string name="FrostwolfBattleStandard">Frostwolf Battle Standard</string>
+    <string name="FrostwolfBattleStandardDesc">Each friendly participating character gains Reroll +1. You must discard this card at the end of combat.</string>
+    <string name="FrostwolfBattleStandardType">Trinket</string>
+    <string name="FrostwolfBattleStandardLvl">1</string>
+    <string name="FrostwolfBattleStandardCost">3</string>
+    <string name="FrostwolfBattleStandardEnergy">0</string>
+
+    <string name="FurbolgMedicinePouch">Furbolg Medicine Pouch</string>
+    <string name="FurbolgMedicinePouchDesc">Using Furbolg Medicine Pouch counts as an action. Discard this card to regain Health equal to the to three times your level.</string>
+    <string name="FurbolgMedicinePouchType">Trinket</string>
+    <string name="FurbolgMedicinePouchLvl">1</string>
+    <string name="FurbolgMedicinePouchCost">2</string>
+    <string name="FurbolgMedicinePouchEnergy">0</string>
+
+    <string name="GemOfProtection">Gem of Protection</string>
+    <string name="GemOfProtectionDesc">End of your Reroll step : Discard this card to place 1 armor token in defense box for each friendly participating character.</string>
+    <string name="GemOfProtectionType">Trinket</string>
+    <string name="GemOfProtectionLvl">3</string>
+    <string name="GemOfProtectionCost">8</string>
+    <string name="GemOfProtectionEnergy">0</string>
+
+    <string name="GnomishNetOMaticProjector">Gnomish Net-o-Matic Projector</string>
+    <string name="GnomishNetOMaticProjectorDesc">Start of your Dice Pool step : Discard this card to add 1 green dice to your dice pool.</string>
+    <string name="GnomishNetOMaticProjectorType">Trinket</string>
+    <string name="GnomishNetOMaticProjectorLvl">1</string>
+    <string name="GnomishNetOMaticProjectorCost">2</string>
+    <string name="GnomishNetOMaticProjectorEnergy">0</string>
+
+    <string name="GoblinDragonGun">Goblin Dragon Gun</string>
+    <string name="GoblinDragonGunDesc">Start of your Dice Pool step : Discard this card to add 3 blue dice to your dice pool. End of your Dice Pool step : If you have more than one 1 blue dice in your dice pool, you must lose 2 Health.</string>
+    <string name="GoblinDragonGunType">Trinket</string>
+    <string name="GoblinDragonGunLvl">1</string>
+    <string name="GoblinDragonGunCost">2</string>
+    <string name="GoblinDragonGunEnergy">0</string>
+
+    <string name="GoblinLandMine">Goblin Land Mine</string>
+    <string name="GoblinLandMineDesc">Start of the first combat round : Roll a red dice. If you roll a 1 or a 2, discard this card.If you roll a 3 or a 4, nothing happens. If you roll a 5+, discard this card and place 2 hit tokens in the damage box.</string>
+    <string name="GoblinLandMineType">Trinket</string>
+    <string name="GoblinLandMineLvl">1</string>
+    <string name="GoblinLandMineCost">2</string>
+    <string name="GoblinLandMineEnergy">0</string>
+
+    <string name="GoblinSapperCharge">Goblin Sapper Charge</string>
+    <string name="GoblinSapperChargeDesc">Start of the first combat round : Roll a red dice. If you roll a 1 or a 2, discard this card and lose 1 Health.If you roll a 3+, place 3 hit tokens in the damage box and lose 1 Health.</string>
+    <string name="GoblinSapperChargeType">Trinket</string>
+    <string name="GoblinSapperChargeLvl">3</string>
+    <string name="GoblinSapperChargeCost">7</string>
+    <string name="GoblinSapperChargeEnergy">0</string>
+
+    <string name="GreaterProtectionPotion">Greater Protection Potion</string>
+    <string name="GreaterProtectionPotionDesc">Start of your Dice Pool step : Discard this card to add 1 green dice to your dice pool and gain Reroll +1. You may only use one Potion per combat round.</string>
+    <string name="GreaterProtectionPotionType">Potion</string>
+    <string name="GreaterProtectionPotionLvl">2</string>
+    <string name="GreaterProtectionPotionCost">7</string>
+    <string name="GreaterProtectionPotionEnergy">0</string>
+
+    <string name="GreatRagePotion">Great Rage Potion</string>
+    <string name="GreatRagePotionDesc">Start of your Dice Pool step : Discard this card and remove 1 green dice from your dice pool to add 1 red dice to your dice pool and regain 1 Energy. You may only use one Potion per combat round.</string>
+    <string name="GreatRagePotionType">Potion</string>
+    <string name="GreatRagePotionLvl">2</string>
+    <string name="GreatRagePotionCost">7</string>
+    <string name="GreatRagePotionEnergy">0</string>
+
+    <string name="HandOfJustice">Hand of Justice</string>
+    <string name="HandOfJusticeDesc">End of your Reroll step : Discard this card and spot one 7+ red dice to roll an additional red dice.</string>
+    <string name="HandOfJusticeType">Trinket</string>
+    <string name="HandOfJusticeLvl">1</string>
+    <string name="HandOfJusticeCost">2</string>
+    <string name="HandOfJusticeEnergy">0</string>
+
+    <string name="HeartOfNoxxion">Heart of Noxxion</string>
+    <string name="HeartOfNoxxionDesc">Start of the combat round : Discard this card to remove all stun tokens from a friendly participating character.</string>
+    <string name="HeartOfNoxxionType">Trinket</string>
+    <string name="HeartOfNoxxionLvl">1</string>
+    <string name="HeartOfNoxxionCost">2</string>
+    <string name="HeartOfNoxxionEnergy">0</string>
+
+    <string name="IceThreadedArrow">Ice Threaded Arrow</string>
+    <string name="IceThreadedArrowDesc">Start of your Dice Pool step : If you have a Bow equipped, discard this card and remove a blue dice from your dice pool to lower the Threat value of each opponent by 1 until the end of your Attack phase. You may only use one Ammo per combat round.</string>
+    <string name="IceThreadedArrowType">Ammo</string>
+    <string name="IceThreadedArrowLvl">1</string>
+    <string name="IceThreadedArrowCost">2</string>
+    <string name="IceThreadedArrowEnergy">0</string>
+
+    <string name="IceThreadedBullet">IceThreadedBullet</string>
+    <string name="IceThreadedBulletDesc">Start of your Dice Pool step : If you have a Gun equipped, discard this card to add a red dice to your dice pool. You may only use one Ammo per combat round.</string>
+    <string name="IceThreadedBulletType">Ammo</string>
+    <string name="IceThreadedBulletLvl">1</string>
+    <string name="IceThreadedBulletCost">2</string>
+    <string name="IceThreadedBulletEnergy">0</string>
+
+    <string name="InfernoPotion">Inferno Potion</string>
+    <string name="InfernoPotionDesc">Start of your Dice Pool step : Discard this card to place 1 hit token in the damage box. You may only use one Potion per combat round.</string>
+    <string name="InfernoPotionType">Potion</string>
+    <string name="InfernoPotionLvl">3</string>
+    <string name="InfernoPotionCost">8</string>
+    <string name="InfernoPotionEnergy">0</string>
+
+    <string name="IronCounterweight">Iron Counterweight</string>
+    <string name="IronCounterweightDesc">Start of your Reroll step : If you have a Mace or a Sword equipped, discard this card to gain Reroll +2.</string>
+    <string name="IronCounterweightType">Trinket</string>
+    <string name="IronCounterweightLvl">1</string>
+    <string name="IronCounterweightCost">2</string>
+    <string name="IronCounterweightEnergy">0</string>
+
+    <string name="IronShieldSpike">Iron Shield Spike</string>
+    <string name="IronShieldSpikeDesc">Add 3 red dices to your dice pool. Attrition +1.</string>
+    <string name="IronShieldSpikeType">Trinket</string>
+    <string name="IronShieldSpikeLvl">3</string>
+    <string name="IronShieldSpikeCost">8</string>
+    <string name="IronShieldSpikeEnergy">0</string>
+
+    <string name="JaggedArrow">Jagged Arrow</string>
+    <string name="JaggedArrowDesc">>Start of your Dice Pool step : If you have a Bow equipped, discard this card to add a blue dice to your dice pool. You may only use one Ammo per combat round.</string>
+    <string name="JaggedArrowType">Ammo</string>
+    <string name="JaggedArrowLvl">3</string>
+    <string name="JaggedArrowCost">8</string>
+    <string name="JaggedArrowEnergy">0</string>
+
+    <string name="LibramOfFocus">Libram of Focus</string>
+    <string name="LibramOfFocusDesc">You may use a Scroll or Potion even if the item has a higher level than your character.</string>
+    <string name="LibramOfFocusType">Trinket</string>
+    <string name="LibramOfFocusLvl">2</string>
+    <string name="LibramOfFocusCost">5</string>
+    <string name="LibramOfFocusEnergy">0</string>
+
+    <string name="LinkensBoomerang">Linken\'s Boomerang</string>
+    <string name="LinkensBoomerangDesc">Start of the combat round : Roll a green dice. If the result is higher than your level, discard this card. If the results is equal to or lower than your level, place 1 armor token in the defense box.</string>
+    <string name="LinkensBoomerangType">Trinket</string>
+    <string name="LinkensBoomerangLvl">1</string>
+    <string name="LinkensBoomerangCost">2</string>
+    <string name="LinkensBoomerangEnergy">0</string>
+
+    <string name="LionHornOfStormwind">Lion Horn of Stormwind</string>
+    <string name="LionHornOfStormwindDesc">Each friendly participating character may add 2 green dices to his dice pool. You must discard this card at the end of combat.</string>
+    <string name="LionHornOfStormwindType">Trinket</string>
+    <string name="LionHornOfStormwindLvl">1</string>
+    <string name="LionHornOfStormwindCost">3</string>
+    <string name="LionHornOfStormwindEnergy">0</string>
+
+    <string name="MarkOfTheChosen">Mark of the Chosen</string>
+    <string name="MarkOfTheChosenDesc">Start of your Reroll step : Discard this card to gain Reroll +X. X is equal to the number of participating opponents.</string>
+    <string name="MarkOfTheChosenType">Trinket</string>
+    <string name="MarkOfTheChosenLvl">1</string>
+    <string name="MarkOfTheChosenCost">2</string>
+    <string name="MarkOfTheChosenEnergy">0</string>
+
+    <string name="MedallionOfSteadfastMight">Medallion of Steadfast Might</string>
+    <string name="MedallionOfSteadfastMightDesc">Add 1 green dice to your dice pool. Reroll +1.</string>
+    <string name="MedallionOfSteadfastMightType">Trinket</string>
+    <string name="MedallionOfSteadfastMightLvl">2</string>
+    <string name="MedallionOfSteadfastMightCost">7</string>
+    <string name="MedallionOfSteadfastMightEnergy">0</string>
+
+    <string name="MindtapTalisman">Mindtap Talisman</string>
+    <string name="MindtapTalismanDesc">Start of your Dice Pool step : Discard this card to remove up to 3 blue dices from your pool. For each blue dice you remove, regain 1 Energy.</string>
+    <string name="MindtapTalismanType">Trinket</string>
+    <string name="MindtapTalismanLvl">3</string>
+    <string name="MindtapTalismanCost">9</string>
+    <string name="MindtapTalismanEnergy">0</string>
+
+    <string name="NecromanticBand">Necromantic Band</string>
+    <string name="NecromanticBandDesc">Start of your action : Regain 1 Health.</string>
+    <string name="NecromanticBandType">Trinket</string>
+    <string name="NecromanticBandLvl">2</string>
+    <string name="NecromanticBandCost">3</string>
+    <string name="NecromanticBandEnergy">0</string>
+
+    <string name="NiftyStopwatch">Nifty Stopwatch</string>
+    <string name="NiftyStopwatchDesc">During your Travel action : Discard this card to move one additional region.</string>
+    <string name="NiftyStopwatchType">Trinket</string>
+    <string name="NiftyStopwatchLvl">3</string>
+    <string name="NiftyStopwatchCost">12</string>
+    <string name="NiftyStopwatchEnergy">0</string>
+
+    <string name="OnyxiaBloodTalisman">Onyxia Blood Talisman</string>
+    <string name="OnyxiaBloodTalismanDesc">Start of your Dice Pool step : Discard this card to add a green dice to your dice pool and regain 1 Health.</string>
+    <string name="OnyxiaBloodTalismanType">Trinket</string>
+    <string name="OnyxiaBloodTalismanLvl">1</string>
+    <string name="OnyxiaBloodTalismanCost">3</string>
+    <string name="OnyxiaBloodTalismanEnergy">0</string>
+
+    <string name="OnyxiaToothPendant">Onyxia Tooth Pendant</string>
+    <string name="OnyxiaToothPendantDesc">Start of your Reroll step : Discard this card to gain Reroll +1 and change one 4+ blue dice into a 8 blue dice.</string>
+    <string name="OnyxiaToothPendantType">Trinket</string>
+    <string name="OnyxiaToothPendantLvl">2</string>
+    <string name="OnyxiaToothPendantCost">7</string>
+    <string name="OnyxiaToothPendantEnergy">0</string>
+
+    <string name="OrbOfDeception">Orb of Deception</string>
+    <string name="OrbOfDeceptionDesc">Start of your first Dice Pool step : Add a number of blue dice to your dice pool equal to the number of enemy participating characters.</string>
+    <string name="OrbOfDeceptionType">Trinket</string>
+    <string name="OrbOfDeceptionLvl">1</string>
+    <string name="OrbOfDeceptionCost">3</string>
+    <string name="OrbOfDeceptionEnergy">0</string>
+
+    <string name="OrbOfTheDarkmoon">Orb of the Darkmoon</string>
+    <string name="OrbOfTheDarkmoonDesc">Add 1 blue dice to your dice pool.</string>
+    <string name="OrbOfTheDarkmoonType">Trinket</string>
+    <string name="OrbOfTheDarkmoonLvl">2</string>
+    <string name="OrbOfTheDarkmoonCost">7</string>
+    <string name="OrbOfTheDarkmoonEnergy">0</string>
+
+    <string name="OverlordsOnyxBand">Overlord\'s Onyx Band</string>
+    <string name="OverlordsOnyxBandDesc">During you Reroll step : You may reroll a number of green dice equal to the level of your equipped Shield. This ability is separate from your Reroll value.</string>
+    <string name="OverlordsOnyxBandType">Trinket</string>
+    <string name="OverlordsOnyxBandLvl">1</string>
+    <string name="OverlordsOnyxBandCost">3</string>
+    <string name="OverlordsOnyxBandEnergy">0</string>
+
+    <string name="PendantOfTheFallenDragon">Pendant of the Fallen Dragon</string>
+    <string name="PendantOfTheFallenDragonDesc">Start of your faction turn : Regain 1 Health.</string>
+    <string name="PendantOfTheFallenDragonType">Trinket</string>
+    <string name="PendantOfTheFallenDragonLvl">1</string>
+    <string name="PendantOfTheFallenDragonCost">2</string>
+    <string name="PendantOfTheFallenDragonEnergy">0</string>
+
+    <string name="PendantOfTheQirajiGuardian">Pendant of the Qiraji Guardian</string>
+    <string name="PendantOfTheQirajiGuardianDesc">End of your Reroll step : Discard this card to change one dice into a 8 grenn dice.</string>
+    <string name="PendantOfTheQirajiGuardianType">Trinket</string>
+    <string name="PendantOfTheQirajiGuardianLvl">1</string>
+    <string name="PendantOfTheQirajiGuardianCost">3</string>
+    <string name="PendantOfTheQirajiGuardianEnergy">0</string>
+
+    <string name="PiccoloOfTheFlamingFire">Piccolo of the Flaming Fire</string>
+    <string name="PiccoloOfTheFlamingFireDesc">Start of an enemy participating character\'s Dice Pool step : Discard this card to remove up to two red or blue dices from that character\'s dice pool.</string>
+    <string name="PiccoloOfTheFlamingFireType">Trinket</string>
+    <string name="PiccoloOfTheFlamingFireLvl">1</string>
+    <string name="PiccoloOfTheFlamingFireCost">3</string>
+    <string name="PiccoloOfTheFlamingFireEnergy">0</string>
+
+    <string name="PrecisionArrow">Precision Arrow</string>
+    <string name="PrecisionArrowDesc">Start of your Dice Pool step : If you have a Bow equipped, discard this card to change one blue dice into a 8 blue dice. You may only use one Ammo per combat round.</string>
+    <string name="PrecisionArrowType">Ammo</string>
+    <string name="PrecisionArrowLvl">1</string>
+    <string name="PrecisionArrowCost">2</string>
+    <string name="PrecisionArrowEnergy">0</string>
+
+    <string name="PoisonedSpiderFang">Poisoned Spider Fang</string>
+    <string name="PoisonedSpiderFangDesc">Attrition +1. You must discard this card at the end of combat.</string>
+    <string name="PoisonedSpiderFangType">Trinket</string>
+    <string name="PoisonedSpiderFangLvl">1</string>
+    <string name="PoisonedSpiderFangCost">2</string>
+    <string name="PoisonedSpiderFangEnergy">0</string>
+
+    <string name="PotionOfDarkness">Potion of Darkness</string>
+    <string name="PotionOfDarknessDesc">End of your Dice Pool step : Discard this card to escape from combat. Your character remains in the same region but is no longer participating in the combat. You may not use this card during PvP combat. You may only use one Potion per combat round.</string>
+    <string name="PotionOfDarknessType">Potion</string>
+    <string name="PotionOfDarknessLvl">2</string>
+    <string name="PotionOfDarknessCost">4</string>
+    <string name="PotionOfDarknessEnergy">0</string>
+
+    <string name="PowersOfTheVoid">Powers of the Void</string>
+    <string name="PowersOfTheVoidDesc">Start of the first combat round : Roll 3 blue dices. If you roll more than one 1 blue dice, lose 3 Health and discard this card. If you spot at least one 8 blue card, instantly defeat one participating independent creature.</string>
+    <string name="PowersOfTheVoidType">Trinket</string>
+    <string name="PowersOfTheVoidLvl">2</string>
+    <string name="PowersOfTheVoidCost">5</string>
+    <string name="PowersOfTheVoidEnergy">0</string>
+
+    <string name="PurificationPotion">Purification Potion</string>
+    <string name="PurificationPotionDesc">End of your Resolution step : Discard this card to remove all curse tokens from a friendly participating character. You may only use one Potion per combat round.</string>
+    <string name="PurificationPotionType">Potion</string>
+    <string name="PurificationPotionLvl">1</string>
+    <string name="PurificationPotionCost">3</string>
+    <string name="PurificationPotionEnergy">0</string>
+
+    <string name="QuickStrikeRing">Quick Strike Ring</string>
+    <string name="QuickStrikeRingDesc">Add 1 blue dice to your dice pool. Reroll +1.</string>
+    <string name="QuickStrikeRingType">Trinket</string>
+    <string name="QuickStrikeRingLvl">3</string>
+    <string name="QuickStrikeRingCost">10</string>
+    <string name="QuickStrikeRingEnergy">0</string>
+
+    <string name="RaggedJohnsNeverendingCup">Ragged John\'s Neverending Cup</string>
+    <string name="RaggedJohnsNeverendingCupDesc">Start of your Dice Pool step : Regain 2 Health and add 1 green dice to your dice pool. Increase the Threat value of each opponent by 2 until the end of your Attack phase. Then unequip this card.</string>
+    <string name="RaggedJohnsNeverendingCupType">Food</string>
+    <string name="RaggedJohnsNeverendingCupLvl">2</string>
+    <string name="RaggedJohnsNeverendingCupCost">7</string>
+    <string name="RaggedJohnsNeverendingCupEnergy">0</string>
+
+    <string name="RamsteinsLightningBolts">Ramstein\'s Lightning Bolts</string>
+    <string name="RamsteinsLightningBoltsDesc">Start of your Dice Pool step : Discard this card to add a number of blue dice to your dice pool equal to the number of participating opponents.</string>
+    <string name="RamsteinsLightningBoltsType">Trinket</string>
+    <string name="RamsteinsLightningBoltsLvl">2</string>
+    <string name="RamsteinsLightningBoltsCost">6</string>
+    <string name="RamsteinsLightningBoltsEnergy">0</string>
+
+    <string name="RawSagefish">Raw Sagefish</string>
+    <string name="RawSagefishDesc">Start of your action : Discard this card to regain 1 Health and 1 Energy.</string>
+    <string name="RawSagefishType">Food</string>
+    <string name="RawSagefishLvl">3</string>
+    <string name="RawSagefishCost">7</string>
+    <string name="RawSagefishEnergy">0</string>
+
+    <string name="ReinforcedLockedChest">Reinforced Locked Chest</string>
+    <string name="ReinforcedLockedChestDesc">If your faction is defeated in a PvP combat you participated in, you may choose which items the winning faction takes from each friendly participating character.</string>
+    <string name="ReinforcedLockedChestType">Trinket</string>
+    <string name="ReinforcedLockedChestLvl">1</string>
+    <string name="ReinforcedLockedChestCost">2</string>
+    <string name="ReinforcedLockedChestEnergy">0</string>
+
+    <string name="RingOfFury">Ring of Fury</string>
+    <string name="RingOfFuryDesc">Reroll +2.</string>
+    <string name="RingOfFuryType">Trinket</string>
+    <string name="RingOfFuryLvl">2</string>
+    <string name="RingOfFuryCost">6</string>
+    <string name="RingOfFuryEnergy">0</string>
+
+    <string name="RingOfSaviors">Ring of Saviors</string>
+    <string name="RingOfSaviorsDesc">Add 1 green dice to your dice pool. Reroll +2.</string>
+    <string name="RingOfSaviorsType">Trinket</string>
+    <string name="RingOfSaviorsLvl">3</string>
+    <string name="RingOfSaviorsCost">8</string>
+    <string name="RingOfSaviorsEnergy">0</string>
+
+    <string name="RingOfTheBronzeDragonflight">Ring of the Bronze Dragonflight</string>
+    <string name="RingOfTheBronzeDragonflightDesc">Start of your action : Regain 1 Energy.</string>
+    <string name="RingOfTheBronzeDragonflightType">Trinket</string>
+    <string name="RingOfTheBronzeDragonflightLvl">2</string>
+    <string name="RingOfTheBronzeDragonflightCost">3</string>
+    <string name="RingOfTheBronzeDragonflightEnergy">0</string>
+
+    <string name="RumseyRum">Rumsey Rum</string>
+    <string name="RumseyRumDesc">Start of your Dice Pool step : Discard this card to add 2 green dice to your dice pool. Reroll -2.</string>
+    <string name="RumseyRumType">Food</string>
+    <string name="RumseyRumLvl">1</string>
+    <string name="RumseyRumCost">3</string>
+    <string name="RumseyRumEnergy">0</string>
+
+    <string name="RuneclothBag">Runecloth Bag</string>
+    <string name="RuneclothBagDesc">You may store 3 additional items in your Bag.</string>
+    <string name="RuneclothBagType">Trinket</string>
+    <string name="RuneclothBagLvl">1</string>
+    <string name="RuneclothBagCost">2</string>
+    <string name="RuneclothBagEnergy">0</string>
+
+    <string name="SanctifiedOrb">Sanctified Orb</string>
+    <string name="SanctifiedOrbDesc">During your Dice Pool step : If you used an instant power that adds blue dice to your dice pool, you gain Reroll +2 until the end of your Reroll step.</string>
+    <string name="SanctifiedOrbType">Trinket</string>
+    <string name="SanctifiedOrbLvl">1</string>
+    <string name="SanctifiedOrbCost">3</string>
+    <string name="SanctifiedOrbEnergy">0</string>
+
+    <string name="ScrollOfMadness">Scroll of Madness</string>
+    <string name="ScrollOfMadnessDesc">Start of the combat round : Discard this card to roll 3 blue dices. Regain 1 Energy for each 3+ you roll. Then lose 1 Health for each 1 you roll. You ma only use one Scroll per combat round.</string>
+    <string name="ScrollOfMadnessType">Scroll</string>
+    <string name="ScrollOfMadnessLvl">2</string>
+    <string name="ScrollOfMadnessCost">4</string>
+    <string name="ScrollOfMadnessEnergy">0</string>
+
+    <string name="SealOfArchmagus">Seal of Archmagus</string>
+    <string name="SealOfArchmagusDesc">Start of eachcombat round : Regain 1 Energy. You must discard this card at the end of combat.</string>
+    <string name="SealOfArchmagusType">Bow</string>
+    <string name="SealOfArchmagusLvl">3</string>
+    <string name="SealOfArchmagusCost">8</string>
+    <string name="SealOfArchmagusEnergy">0</string>
+
+    <string name="ShardOfTheFlame">Shard of the Flame</string>
+    <string name="ShardOfTheFlameDesc">Start of each combat round : Regain 1 Health. You must discard this card at the end of combat.</string>
+    <string name="ShardOfTheFlameType">Trinket</string>
+    <string name="ShardOfTheFlameLvl">2</string>
+    <string name="ShardOfTheFlameCost">3</string>
+    <string name="ShardOfTheFlameEnergy">0</string>
+
+    <string name="SharpeningStone">Sharpening Stone</string>
+    <string name="SharpeningStoneDesc">Start of your Dice Pool step : if you have a Sword equipped, discard this card to add a red dice to your dice pool.</string>
+    <string name="SharpeningStoneType">Trinket</string>
+    <string name="SharpeningStoneLvl">1</string>
+    <string name="SharpeningStoneCost">2</string>
+    <string name="SharpeningStoneEnergy">0</string>
+
+    <string name="SmolderwebsEye">Smolderweb\'s Eye</string>
+    <string name="SmolderwebsEyeDesc">Start of each combat round : place 1 hit token on this card. During your Place Tokens step : Gain Attrition +1 for each hit token on this card. At the end of combat, you must lose all hit tokens on this card.</string>
+    <string name="SmolderwebsEyeType">Trinket</string>
+    <string name="SmolderwebsEyeLvl">3</string>
+    <string name="SmolderwebsEyeCost">9</string>
+    <string name="SmolderwebsEyeEnergy">0</string>
+
+    <string name="StrongAle">Strong Ale</string>
+    <string name="StrongAleDesc">Start of your action : Discard this card to roll 3 red dices. If you rolled at least one 1 red dice, your action immediately ends. Otherwise regain 4 Health.</string>
+    <string name="StrongAleType">Food</string>
+    <string name="StrongAleLvl">1</string>
+    <string name="StrongAleCost">2</string>
+    <string name="StrongAleEnergy">0</string>
+
+    <string name="TestamentOfHope">Testament of Hope</string>
+    <string name="TestamentOfHopeDesc">You may only use Testament of Hope if you have less than 3 remaining Health. Start of the combat round : Discard this card to regain Health tokens equal to your level.</string>
+    <string name="TestamentOfHopeType">Trinket</string>
+    <string name="TestamentOfHopeLvl">2</string>
+    <string name="TestamentOfHopeCost">6</string>
+    <string name="TestamentOfHopeEnergy">0</string>
+
+    <string name="ThunderAle">Thunder Ale</string>
+    <string name="ThunderAleDesc">End of your Dice Pool step : Roll an additional 3 red dices. You must remove one 8 red dice from your dice pool, if able. Then discard this card.</string>
+    <string name="ThunderAleType">Food</string>
+    <string name="ThunderAleLvl">3</string>
+    <string name="ThunderAleCost">12</string>
+    <string name="ThunderAleEnergy">0</string>
+
+    <string name="TomeOfArcaneDomination">Tome of Arcane Domination</string>
+    <string name="TomeOfArcaneDominationDesc">immediately before you use an instant power : Lower the Energy cost of your instant power by 1 (minimum of 0). Then unequip this card.</string>
+    <string name="TomeOfArcaneDominationType">Trinket</string>
+    <string name="TomeOfArcaneDominationLvl">1</string>
+    <string name="TomeOfArcaneDominationCost">3</string>
+    <string name="TomeOfArcaneDominationEnergy">0</string>
+
+    <string name="TravelersBelt">Traveler\'s Belt</string>
+    <string name="TravelersBeltDesc">End of your Travel action : If you only moved 1 region this Travel action, you may regain 1 Energy and 1 Health.</string>
+    <string name="TravelersBeltType">Scroll</string>
+    <string name="TravelersBeltLvl">1</string>
+    <string name="TravelersBeltCost">2</string>
+    <string name="TravelersBeltEnergy">0</string>
+
+    <string name="TreasureMap">Treasure Map</string>
+    <string name="TreasureMapDesc">Immediately after you complete a quest : Discard this card to add one additional Square Item card to the quest\'s reward..</string>
+    <string name="TreasureMapType">Trinket</string>
+    <string name="TreasureMapLvl">3</string>
+    <string name="TreasureMapCost">7</string>
+    <string name="TreasureMapEnergy">0</string>
+
+    <string name="AmethystWarStaff">Amethyst War Staff</string>
+    <string name="AmethystWarStaffDesc">Add 1 red dice to your dice pool.End of Your Reroll step : Spot one 7+ red dice and spend 1 Energy to place 2 hit tokens in the damage box.</string>
+    <string name="AmethystWarStaffType">Staff</string>
+    <string name="AmethystWarStaffLvl">2</string>
+    <string name="AmethystWarStaffCost">6</string>
+    <string name="AmethystWarStaffEnergy">0</string>
+
+    <string name="AncestralTunic">Ancestral Tunic</string>
+    <string name="AncestralTunicDesc">Add 1 green dice to your dice pool. End of your Dice Pool step : You may spend 1 Energy to gain Reroll +2.</string>
+    <string name="AncestralTunicType">Cloth</string>
+    <string name="AncestralTunicLvl">1</string>
+    <string name="AncestralTunicCost">3</string>
+    <string name="AncestralTunicEnergy">0</string>
+
+    <string name="ArchersBuckler">Archer\'s Buckler</string>
+    <string name="ArchersBucklerDesc">Add 1 green dice to your dice pool.</string>
+    <string name="ArchersBucklerType">Shield - Leather</string>
+    <string name="ArchersBucklerLvl">2</string>
+    <string name="ArchersBucklerCost">4</string>
+    <string name="ArchersBucklerEnergy">0</string>
+
+    <string name="ArdentCustodian">Ardent Custodian</string>
+    <string name="ArdentCustodianDesc">Add 2 red dices to your dice pool. End of your Reroll step : Spot one 8 red dice to place 1 armor token in the defense box.</string>
+    <string name="ArdentCustodianType">Mace</string>
+    <string name="ArdentCustodianLvl">2</string>
+    <string name="ArdentCustodianCost">6</string>
+    <string name="ArdentCustodianEnergy">0</string>
+
+    <string name="BandOfAccuria">Band of Accuria</string>
+    <string name="BandOfAccuriaDesc">Reroll +1.</string>
+    <string name="BandOfAccuriaType">Trinket</string>
+    <string name="BandOfAccuriaLvl">1</string>
+    <string name="BandOfAccuriaCost">2</string>
+    <string name="BandOfAccuriaEnergy">0</string>
+
+    <string name="BastardSword">Bastard Sword</string>
+    <string name="BastardSwordDesc">Add 2 red dices to your dice pool. End of your Reroll step : Spot one 7+ red dice to gain Attrition +1.</string>
+    <string name="BastardSwordType">Sword</string>
+    <string name="BastardSwordLvl">2</string>
+    <string name="BastardSwordCost">7</string>
+    <string name="BastardSwordEnergy">0</string>
+
+    <string name="BentStaff">Bent Staff</string>
+    <string name="BentStaffDesc">Add 1 red dice to your dice pool. Reroll +1.</string>
+    <string name="BentStaffType">Staff</string>
+    <string name="BentStaffLvl">1</string>
+    <string name="BentStaffCost">3</string>
+    <string name="BentStaffEnergy">0</string>
+
+    <string name="BrilliantWizardOil">Brilliant Wizard Oil</string>
+    <string name="BrilliantWizardOilDesc">Does not count towards your Bag limit. Start of your Dice Pool step : If you have a Staff or Sword equipped, discard this card to add 1 blue dice to your dice pool. You may only use on Potion per combat round.</string>
+    <string name="BrilliantWizardOilType">Potion</string>
+    <string name="BrilliantWizardOilLvl">1</string>
+    <string name="BrilliantWizardOilCost">3</string>
+    <string name="BrilliantWizardOilEnergy">0</string>
+
+    <string name="CadetVest">Cadet Vest</string>
+    <string name="CadetVestDesc">Add 2 green dices to your dice pool.</string>
+    <string name="CadetVestType">Mail</string>
+    <string name="CadetVestLvl">1</string>
+    <string name="CadetVestCost">5</string>
+    <string name="CadetVestEnergy">0</string>
+
+    <string name="ChargedLightingRod">Charged Lighting Rod</string>
+    <string name="ChargedLightingRodDesc">Add 1 blue dice to your dice pool. End of your Dice Pool step : You may change one blue dice into a 3 red, blue or red dice.</string>
+    <string name="ChargedLightingRodType">Wand</string>
+    <string name="ChargedLightingRodLvl">2</string>
+    <string name="ChargedLightingRodCost">6</string>
+    <string name="ChargedLightingRodEnergy">0</string>
+
+    <string name="CobaltBuckler">Cobalt Buckler</string>
+    <string name="CobaltBucklerDesc">Add 1 green dice to your dice pool. Reroll +1.</string>
+    <string name="CobaltBucklerType">Shield-Mail</string>
+    <string name="CobaltBucklerLvl">2</string>
+    <string name="CobaltBucklerCost">5</string>
+    <string name="CobaltBucklerEnergy">0</string>
+
+    <string name="CrocoliskSteak">Crocolisk Steak</string>
+    <string name="CrocoliskSteakDesc">Does not count towards your Bag limit. When you take a Rest action : You may Discard this card to regain Health and Energy up to your capacity.</string>
+    <string name="CrocoliskSteakType">Food</string>
+    <string name="CrocoliskSteakLvl">1</string>
+    <string name="CrocoliskSteakCost">2</string>
+    <string name="CrocoliskSteakEnergy">0</string>
+
+    <string name="CuredLeatherArmor">Cured Leather Armor</string>
+    <string name="CuredLeatherArmorDesc">Add 2 green dices to your dice pool. Reroll +1.</string>
+    <string name="CuredLeatherArmorType">Leather</string>
+    <string name="CuredLeatherArmorLvl">2</string>
+    <string name="CuredLeatherArmorCost">6</string>
+    <string name="CuredLeatherArmorEnergy">0</string>
+
+    <string name="DragonbreathHandCannon">Dragonbreath Hand Cannon</string>
+    <string name="DragonbreathHandCannonDesc">Add 3 blue dices to your dice pool. End of your Dice Pool step : You must spot one 8 blue dice or you lose 1 Health and discard this card.</string>
+    <string name="DragonbreathHandCannonType">Gun</string>
+    <string name="DragonbreathHandCannonLvl">2</string>
+    <string name="DragonbreathHandCannonCost">5</string>
+    <string name="DragonbreathHandCannonEnergy">0</string>
+
+    <string name="DullBlade">Dull Blade</string>
+    <string name="DullBladeDesc">Add 1 red dice to your dice pool. Reroll +1.</string>
+    <string name="DullBladeType">Sword</string>
+    <string name="DullBladeLvl">1</string>
+    <string name="DullBladeCost">3</string>
+    <string name="DullBladeEnergy">0</string>
+
+    <string name="FineLongbow">Fine Longbow</string>
+    <string name="FineLongbowDesc">Add 2 blue dices to your dice pool. Reroll +1.</string>
+    <string name="FineLongbowType">Bow</string>
+    <string name="FineLongbowLvl">2</string>
+    <string name="FineLongbowCost">7</string>
+    <string name="FineLongbowEnergy">0</string>
+
+    <string name="FootmanTunic">Footman Tunic</string>
+    <string name="FootmanTunicDesc">Add 2 green dices to your dice pool.</string>
+    <string name="FootmanTunicType">Leather</string>
+    <string name="FootmanTunicLvl">1</string>
+    <string name="FootmanTunicCost">4</string>
+    <string name="FootmanTunicEnergy">0</string>
+
+    <string name="FreezingShard">FreezingShard</string>
+    <string name="FreezingShardDesc">Add 2 blue dices to your dice pool. End of your Dice Pool step : Spot one 6+ blue dice to roll an additional green dice.</string>
+    <string name="FreezingShardType">Wand</string>
+    <string name="FreezingShardLvl">2</string>
+    <string name="FreezingShardCost">7</string>
+    <string name="FreezingShardEnergy">0</string>
+
+    <string name="GnarledStaff">Gnarled Staff</string>
+    <string name="GnarledStaffDesc">Add 2 red dices to your dice pool. End of your Dice Pool step : You may spend 1 Energy to gain Reroll +1.</string>
+    <string name="GnarledStaffType">Staff</string>
+    <string name="GnarledStaffLvl">2</string>
+    <string name="GnarledStaffCost">6</string>
+    <string name="GnarledStaffEnergy">0</string>
+
+    <string name="GustwealdCloak">Gustweald Cloak</string>
+    <string name="GustwealdCloakDesc">Add 1 green dice to your dice pool. End of your Reroll step : You may change one 1 or 2 red, blue, green dice into a 3 green dice.</string>
+    <string name="GustwealdCloakType">Cloth</string>
+    <string name="GustwealdCloakLvl">1</string>
+    <string name="GustwealdCloakCost">3</string>
+    <string name="GustwealdCloakEnergy">0</string>
+
+    <string name="HeadmastersCharge">Headmaster\'s Charge</string>
+    <string name="HeadmastersChargeDesc">Add 2 red dices to your dice pool. Start of the first combat round : Increase the Energy capacity of each friendly participating characters by 3 until the end of this combat. At the end of the combat, all friendly participating characters lose any Energy in excess of their capacity.</string>
+    <string name="HeadmastersChargeType">Staff</string>
+    <string name="HeadmastersChargeLvl">2</string>
+    <string name="HeadmastersChargeCost">6</string>
+    <string name="HeadmastersChargeEnergy">0</string>
+
+    <string name="Hearthstone">Hearthstone</string>
+    <string name="HearthstoneDesc">using this card counts as an action. Relocate to your faction\'s starting region (Brill for the Hord, or Southshore for the Alliance).</string>
+    <string name="HearthstoneType">Trinket</string>
+    <string name="HearthstoneLvl">1</string>
+    <string name="HearthstoneCost">3</string>
+    <string name="HearthstoneEnergy">0</string>
+
+    <string name="HelmOfVengeance">Helm of Vengeance</string>
+    <string name="HelmOfVengeanceDesc">If you are defending against an enemy faction in PvP combat, add 1 red, blue and green dices to your dice pool.</string>
+    <string name="HelmOfVengeanceType">Helmet - Cloth</string>
+    <string name="HelmOfVengeanceLvl">2</string>
+    <string name="HelmOfVengeanceCost">4</string>
+    <string name="HelmOfVengeanceEnergy">0</string>
+
+    <string name="InvisibilityPotion">Invisibility Potion</string>
+    <string name="InvisibilityPotionDesc">Does not count towards your Bag limit. Start of your action : Discard this card. You may choose to take a Travel action even if your character is in a region containing one or more independent creatures.</string>
+    <string name="InvisibilityPotionType">Potion</string>
+    <string name="InvisibilityPotionLvl">1</string>
+    <string name="InvisibilityPotionCost">2</string>
+    <string name="InvisibilityPotionEnergy">0</string>
+
+    <string name="IridescentHammer">Iridescent Hammer</string>
+    <string name="IridescentHammerDesc">Add 2 red dices to your dice pool. Attrition +1.</string>
+    <string name="IridescentHammerType">Mace</string>
+    <string name="IridescentHammerLvl">2</string>
+    <string name="IridescentHammerCost">8</string>
+    <string name="IridescentHammerEnergy">0</string>
+
+    <string name="LaminatedRecurveBow">Laminated Recurve Bow</string>
+    <string name="LaminatedRecurveBowDesc">Add 1 green dice to your dice pool. End of your Dice Pool step : Spot one 8 green dice to roll and additional green dice.</string>
+    <string name="LaminatedRecurveBowType">Shield - Mail</string>
+    <string name="LaminatedRecurveBowLvl">3</string>
+    <string name="LaminatedRecurveBowCost">11</string>
+    <string name="LaminatedRecurveBowEnergy">0</string>
+
+    <string name="LeyStaff">Ley Staff</string>
+    <string name="LeyStaffDesc">Add 3 red dices to your dice pool. Attrition +1.</string>
+    <string name="LeyStaffType">Staff</string>
+    <string name="LeyStaffLvl">2</string>
+    <string name="LeyStaffCost">8</string>
+    <string name="LeyStaffEnergy">0</string>
+
+    <string name="MarkOfTheDragonLord">Mark of the Dragon Lord</string>
+    <string name="MarkOfTheDragonLordDesc">Start of the first combat round : Spend 3 Energy to place 3 armor tokens on this card. Start of FIce Pool step : Add a number of green dice to your dice poolt equal to the number of armor tokens on this card. Then lose 1 armor token from this card. At the end of combat, lose all armor tokens on this card.</string>
+    <string name="MarkOfTheDragonLordType">Trinket</string>
+    <string name="MarkOfTheDragonLordLvl">2</string>
+    <string name="MarkOfTheDragonLordCost">5</string>
+    <string name="MarkOfTheDragonLordEnergy">0</string>
+
+    <string name="MinorAgilityPotion">Minor Agility Potion</string>
+    <string name="MinorAgilityPotionDesc">Does not count towards your Bag limit. End of your Dice Pool step : Discard this card to gain Reroll +1. You may only use one Potion per combat round.</string>
+    <string name="MinorAgilityPotionType">Potion</string>
+    <string name="MinorAgilityPotionLvl">1</string>
+    <string name="MinorAgilityPotionCost">2</string>
+    <string name="MinorAgilityPotionEnergy">0</string>
+
+    <string name="MinorHealingPotion">Minor Healing Potion</string>
+    <string name="MinorHealingPotionDesc">Does not count towards your Bag limit. After you lose a Health : Discard this card to regain 1 Health. You may only use one Potion per combat round.</string>
+    <string name="MinorHealingPotionType">Pootion</string>
+    <string name="MinorHealingPotionLvl">1</string>
+    <string name="MinorHealingPotionCost">2</string>
+    <string name="MinorHealingPotionEnergy">0</string>
+
+    <string name="MinorManaPotion">Minor Mana Potion</string>
+    <string name="MinorManaPotionDesc">Does not count towards your Bag limit. After you spend an Energy : Discard this card to regain 1 Energy. You may only use one Potion per combat round.</string>
+    <string name="MinorManaPotionType">Gun</string>
+    <string name="MinorManaPotionLvl">3</string>
+    <string name="MinorManaPotionCost">10</string>
+    <string name="MinorManaPotionEnergy">0</string>
+
+    <string name="MoonsightRifle">Moonsight Rifle</string>
+    <string name="MoonsightRifleDesc">Add 2 blue dices to your dice pool. Reroll +2.</string>
+    <string name="MoonsightRifleType">Gun</string>
+    <string name="MoonsightRifleLvl">2</string>
+    <string name="MoonsightRifleCost">5</string>
+    <string name="MoonsightRifleEnergy">0</string>
+
+    <string name="NeophytesRobe">Neophyte\'s Robe</string>
+    <string name="NeophytesRobeDesc">Add 1 green dice to your dice pool. Reroll +1.</string>
+    <string name="NeophytesRobeType">Cloth</string>
+    <string name="NeophytesRobeLvl">1</string>
+    <string name="NeophytesRobeCost">2</string>
+    <string name="NeophytesRobeEnergy">0</string>
+
+    <string name="OrnateSpyglass">Ornate Spyglass</string>
+    <string name="OrnateSpyglassDesc">Start of your action : Look at the top card on any faction\'s quest deck, then unequip this card.</string>
+    <string name="OrnateSpyglassType">Trinket</string>
+    <string name="OrnateSpyglassLvl">1</string>
+    <string name="OrnateSpyglassCost">3</string>
+    <string name="OrnateSpyglassEnergy">0</string>
+
+    <string name="PainweaverBand">Painweaver Band</string>
+    <string name="PainweaverBandDesc">During your Reroll step : You may reroll a number of red dice equal to the level of your equipped Mace, Staff or Sword. This ability is separate from your Reroll value.</string>
+    <string name="PainweaverBandType">Trinket</string>
+    <string name="PainweaverBandLvl">2</string>
+    <string name="PainweaverBandCost">7</string>
+    <string name="PainweaverBandEnergy">0</string>
+
+    <string name="Ragehammer">Ragehammer</string>
+    <string name="RagehammerDesc">Add 1 red dice to your dice pool. If you do not roll any green dice, you may add an additional 2 red dices to your dice pool.</string>
+    <string name="RagehammerType">Mace</string>
+    <string name="RagehammerLvl">2</string>
+    <string name="RagehammerCost">5</string>
+    <string name="RagehammerEnergy">0</string>
+
+    <string name="RakzurClub">Rakzur Club</string>
+    <string name="RakzurClubDesc">Add 2 red dices to your dice pool. End of your Dice Pool step : Spot one 7+ red dice to gain Reroll +1.</string>
+    <string name="RakzurClubType">Mace</string>
+    <string name="RakzurClubLvl">2</string>
+    <string name="RakzurClubCost">6</string>
+    <string name="RakzurClubEnergy">0</string>
+
+    <string name="RingOfInfiniteWisdom">Ring of Infinite Wisdom</string>
+    <string name="RingOfInfiniteWisdomDesc">Your Energy capacity is increased by 1. When you equip this card, immediately regain 1 Energy.</string>
+    <string name="RingOfInfiniteWisdomType">Trinket</string>
+    <string name="RingOfInfiniteWisdomLvl">2</string>
+    <string name="RingOfInfiniteWisdomCost">6</string>
+    <string name="RingOfInfiniteWisdomEnergy">0</string>
+
+    <string name="RobeOfApprenticeship">Robe of Apprenticeship</string>
+    <string name="RobeOfApprenticeshipDesc">Add 1 green dice to your dice pool. Reroll +2.</string>
+    <string name="RobeOfApprenticeshipType">Cloth</string>
+    <string name="RobeOfApprenticeshipLvl">2</string>
+    <string name="RobeOfApprenticeshipCost">6</string>
+    <string name="RobeOfApprenticeshipEnergy">0</string>
+
+    <string name="Scimitar">Scimitar</string>
+    <string name="ScimitarDesc">Add 2 red dices to your dice pool. Reroll +1.</string>
+    <string name="ScimitarType">Sword</string>
+    <string name="ScimitarLvl">2</string>
+    <string name="ScimitarCost">7</string>
+    <string name="ScimitarEnergy">0</string>
+
+    <string name="ScrollOfLesserStrength">Scroll of Lesser Strength</string>
+    <string name="ScrollOfLesserStrengthDesc">Does not count towards your Bag limit. Start of your Dice Pool step : Discard this card to add 2 blue dice to your dice pool. You may only use on Scroll per combat round.</string>
+    <string name="ScrollOfLesserStrengthType">Scroll</string>
+    <string name="ScrollOfLesserStrengthLvl">1</string>
+    <string name="ScrollOfLesserStrengthCost">7</string>
+    <string name="ScrollOfLesserStrengthEnergy">0</string>
+
+    <string name="ShadowHand">Shadow Hand</string>
+    <string name="ShadowHandDesc">Add 1 blue dice to your dice pool. Attrition +1.</string>
+    <string name="ShadowHandType">Wand</string>
+    <string name="ShadowHandLvl">1</string>
+    <string name="ShadowHandCost">4</string>
+    <string name="ShadowHandEnergy">0</string>
+
+    <string name="ShardOfAfrasa">Shard of Afrasa</string>
+    <string name="ShardOfAfrasaDesc">End of your Rest action : Regain an additional combination of Energy and Health equal to your level.</string>
+    <string name="ShardOfAfrasaType">Trinket</string>
+    <string name="ShardOfAfrasaLvl">1</string>
+    <string name="ShardOfAfrasaCost">2</string>
+    <string name="ShardOfAfrasaEnergy">0</string>
+
+    <string name="Skycaller">Skycaller</string>
+    <string name="SkycallerDesc">Add 2 blue dices to your dice pool. Attrition +1.</string>
+    <string name="SkycallerType">Wand</string>
+    <string name="SkycallerLvl">2</string>
+    <string name="SkycallerCost">8</string>
+    <string name="SkycallerEnergy">0</string>
+
+    <string name="SoldiersArmor">Soldier\'s Armor</string>
+    <string name="SoldiersArmorDesc">Add 3 green dices to your dice pool.</string>
+    <string name="SoldiersArmorType">Mail</string>
+    <string name="SoldiersArmorLvl">2</string>
+    <string name="SoldiersArmorCost">7</string>
+    <string name="SoldiersArmorEnergy">0</string>
+
+    <string name="StaffOfTheQirajiProphets">Staff of the Qiraji Prophets</string>
+    <string name="StaffOfTheQirajiProphetsDesc">Add 2 red dices or 2 blue dices to your dice pool.</string>
+    <string name="StaffOfTheQirajiProphetsType">Staff</string>
+    <string name="StaffOfTheQirajiProphetsLvl">2</string>
+    <string name="StaffOfTheQirajiProphetsCost">7</string>
+    <string name="StaffOfTheQirajiProphetsEnergy">0</string>
+
+    <string name="ThrashBlade">Thrash Blade</string>
+    <string name="ThrashBladeDesc">Add 2 red dices to your dice pool. End of your Dice Pool step : Spot one 6+ red dice to roll an additional red dice.</string>
+    <string name="ThrashBladeType">Sword</string>
+    <string name="ThrashBladeLvl">2</string>
+    <string name="ThrashBladeCost">7</string>
+    <string name="ThrashBladeEnergy">0</string>
+
+    <string name="TroggClub">Trogg Club</string>
+    <string name="TroggClubDesc">Add 1 red dice to your dice pool. End of your Dice Pool step : Spot one 7+ red dice to roll an additional red dice.</string>
+    <string name="TroggClubType">Mace</string>
+    <string name="TroggClubLvl">1</string>
+    <string name="TroggClubCost">3</string>
+    <string name="TroggClubEnergy">0</string>
+
+    <string name="TrueshotBow">Trueshot Bow</string>
+    <string name="TrueshotBowDesc">Add 2 blue dices to your dice pool. Start of your Rerolll step : You may gain Reroll +3, but then you may only reroll blue dice.</string>
+    <string name="TrueshotBowType">Bow</string>
+    <string name="TrueshotBowLvl">2</string>
+    <string name="TrueshotBowCost">7</string>
+    <string name="TrueshotBowEnergy">0</string>
+
 </resources>

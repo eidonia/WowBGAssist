@@ -9,7 +9,7 @@ public class Spell extends Cards {
     String stringEnergyCost;
 
 
-    Spell(int ID, String Name, int CardImage, String levelRequiredSpell, String Description, int imageCost, int imageEnergyCost, String stringCost, String stringEnergyCost) {
+    public Spell(int ID, String Name, int CardImage, String levelRequiredSpell, String Description, int imageCost, int imageEnergyCost, String stringCost, String stringEnergyCost) {
         super(ID, Name, CardImage);
         this.levelRequiredSpell = levelRequiredSpell;
         this.Description = Description;

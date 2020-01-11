@@ -3,26 +3,33 @@ package com.bast.worlofwarcraftboardgameassistanttool.Cards;
 public class Stuff extends Cards {
 
     boolean stuffBase;
+    String rarity;
     String classStuffBase;
     String description;
     String levelRequired;
     String typeStuff;
-    int imageCostStuff;
-    int imageCostEnergyStuff;
     String stringCostStuff;
     String stringEnergyStuff;
 
-    Stuff(int ID, String Name, int CardImage, boolean stuffBase, String classStuffBase, String description, String levelRequired, String typeStuff, int imageCostStuff, int imageCostEnergyStuff, String stringCostStuff, String stringEnergyStuff) {
+    public Stuff(int ID, String Name, int CardImage, String rarity, boolean stuffBase, String classStuffBase, String description, String levelRequired, String typeStuff, String stringCostStuff, String stringEnergyStuff) {
         super(ID, Name, CardImage);
+        this.rarity = rarity;
         this.stuffBase = stuffBase;
         this.classStuffBase = classStuffBase;
         this.description = description;
         this.levelRequired = levelRequired;
         this.typeStuff = typeStuff;
-        this.imageCostStuff = imageCostStuff;
-        this.imageCostEnergyStuff = imageCostEnergyStuff;
         this.stringCostStuff = stringCostStuff;
         this.stringEnergyStuff = stringEnergyStuff;
+    }
+
+
+    public String getRarity() {
+        return rarity;
+    }
+
+    public void setRarity(String rarity) {
+        this.rarity = rarity;
     }
 
     public boolean isStuffBase() {
@@ -63,22 +70,6 @@ public class Stuff extends Cards {
 
     public void setTypeStuff(String typeStuff) {
         this.typeStuff = typeStuff;
-    }
-
-    public int getImageCostStuff() {
-        return imageCostStuff;
-    }
-
-    public void setImageCostStuff(int imageCostStuff) {
-        this.imageCostStuff = imageCostStuff;
-    }
-
-    public int getImageCostEnergyStuff() {
-        return imageCostEnergyStuff;
-    }
-
-    public void setImageCostEnergyStuff(int imageCostEnergyStuff) {
-        this.imageCostEnergyStuff = imageCostEnergyStuff;
     }
 
     public String getStringCostStuff() {
