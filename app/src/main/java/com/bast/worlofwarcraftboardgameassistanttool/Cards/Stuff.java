@@ -3,15 +3,15 @@ package com.bast.worlofwarcraftboardgameassistanttool.Cards;
 public class Stuff extends Cards {
 
     boolean stuffBase;
-    String rarity;
-    String classStuffBase;
-    String description;
-    String levelRequired;
-    String typeStuff;
-    String stringCostStuff;
-    String stringEnergyStuff;
+    int rarity;
+    int classStuffBase;
+    int description;
+    int levelRequired;
+    int typeStuff;
+    int intCostStuff;
+    int intEnergyStuff;
 
-    public Stuff(int ID, String Name, int CardImage, String rarity, boolean stuffBase, String classStuffBase, String description, String levelRequired, String typeStuff, String stringCostStuff, String stringEnergyStuff) {
+    public Stuff(int ID, int Name, int CardImage, int rarity, boolean stuffBase, int classStuffBase, int description, int levelRequired, int typeStuff, int intCostStuff, int intEnergyStuff) {
         super(ID, Name, CardImage);
         this.rarity = rarity;
         this.stuffBase = stuffBase;
@@ -19,16 +19,16 @@ public class Stuff extends Cards {
         this.description = description;
         this.levelRequired = levelRequired;
         this.typeStuff = typeStuff;
-        this.stringCostStuff = stringCostStuff;
-        this.stringEnergyStuff = stringEnergyStuff;
+        this.intCostStuff = intCostStuff;
+        this.intEnergyStuff = intEnergyStuff;
     }
 
 
-    public String getRarity() {
+    public int getRarity() {
         return rarity;
     }
 
-    public void setRarity(String rarity) {
+    public void setRarity(int rarity) {
         this.rarity = rarity;
     }
 
@@ -40,51 +40,51 @@ public class Stuff extends Cards {
         this.stuffBase = stuffBase;
     }
 
-    public String getClassStuffBase() {
+    public int getClassStuffBase() {
         return classStuffBase;
     }
 
-    public void setClassStuffBase(String classStuffBase) {
+    public void setClassStuffBase(int classStuffBase) {
         this.classStuffBase = classStuffBase;
     }
 
-    public String getDescription() {
+    public int getDescription() {
         return description;
     }
 
-    public void setDescription(String description) {
+    public void setDescription(int description) {
         this.description = description;
     }
 
-    public String getLevelRequired() {
+    public int getLevelRequired() {
         return levelRequired;
     }
 
-    public void setLevelRequired(String levelRequired) {
+    public void setLevelRequired(int levelRequired) {
         this.levelRequired = levelRequired;
     }
 
-    public String getTypeStuff() {
+    public int getTypeStuff() {
         return typeStuff;
     }
 
-    public void setTypeStuff(String typeStuff) {
+    public void setTypeStuff(int typeStuff) {
         this.typeStuff = typeStuff;
     }
 
-    public String getStringCostStuff() {
-        return stringCostStuff;
+    public int getintCostStuff() {
+        return intCostStuff;
     }
 
-    public void setStringCostStuff(String stringCostStuff) {
-        this.stringCostStuff = stringCostStuff;
+    public void setintCostStuff(int intCostStuff) {
+        this.intCostStuff = intCostStuff;
     }
 
-    public String getStringEnergyStuff() {
-        return stringEnergyStuff;
+    public int getintEnergyStuff() {
+        return intEnergyStuff;
     }
 
-    public void setStringEnergyStuff(String stringEnergyStuff) {
-        this.stringEnergyStuff = stringEnergyStuff;
+    public void setintEnergyStuff(int intEnergyStuff) {
+        this.intEnergyStuff = intEnergyStuff;
     }
 }

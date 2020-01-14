@@ -6,19 +6,19 @@ import java.util.ArrayList;
 
 public class Quests extends Cards {
 
-    String levelColor;
-    String levelRequired;
+    int levelColor;
+    int levelRequired;
     ArrayList<Pair<Integer, String>> monstersDescription;
-    String description;
+    int description;
     int goldQuest;
     int expQuest;
     int stuffQuest;
-    String stringGoldQuest;
-    String stringExpQuest;
-    String stringStuffQuest;
-    String uniqueRewardStuff;
+    int intGoldQuest;
+    int intExpQuest;
+    int intStuffQuest;
+    int uniqueRewardStuff;
 
-    Quests(int ID, String Name, int CardImage, String levelColor, String levelRequired, ArrayList monstersDescription, String description, int goldQuest, int expQuest, int stuffQuest, String stringGoldQuest, String stringExpQuest, String stringStuffQuest, String uniqueRewardStuff) {
+    Quests(int ID, int Name, int CardImage, int levelColor, int levelRequired, ArrayList monstersDescription, int description, int goldQuest, int expQuest, int stuffQuest, int intGoldQuest, int intExpQuest, int intStuffQuest, int uniqueRewardStuff) {
         super(ID, Name, CardImage);
         this.levelColor = levelColor;
         this.levelRequired = levelRequired;
@@ -27,25 +27,25 @@ public class Quests extends Cards {
         this.goldQuest = goldQuest;
         this.expQuest = expQuest;
         this.stuffQuest = stuffQuest;
-        this.stringGoldQuest = stringGoldQuest;
-        this.stringExpQuest = stringExpQuest;
-        this.stringStuffQuest = stringStuffQuest;
+        this.intGoldQuest = intGoldQuest;
+        this.intExpQuest = intExpQuest;
+        this.intStuffQuest = intStuffQuest;
         this.uniqueRewardStuff = uniqueRewardStuff;
     }
 
-    public String getLevelColor() {
+    public int getLevelColor() {
         return levelColor;
     }
 
-    public void setLevelColor(String levelColor) {
+    public void setLevelColor(int levelColor) {
         this.levelColor = levelColor;
     }
 
-    public String getLevelRequired() {
+    public int getLevelRequired() {
         return levelRequired;
     }
 
-    public void setLevelRequired(String levelRequired) {
+    public void setLevelRequired(int levelRequired) {
         this.levelRequired = levelRequired;
     }
 
@@ -57,11 +57,11 @@ public class Quests extends Cards {
         this.monstersDescription = monstersDescription;
     }
 
-    public String getDescription() {
+    public int getDescription() {
         return description;
     }
 
-    public void setDescription(String description) {
+    public void setDescription(int description) {
         this.description = description;
     }
 
@@ -89,35 +89,35 @@ public class Quests extends Cards {
         this.stuffQuest = stuffQuest;
     }
 
-    public String getStringGoldQuest() {
-        return stringGoldQuest;
+    public int getintGoldQuest() {
+        return intGoldQuest;
     }
 
-    public void setStringGoldQuest(String stringGoldQuest) {
-        this.stringGoldQuest = stringGoldQuest;
+    public void setintGoldQuest(int intGoldQuest) {
+        this.intGoldQuest = intGoldQuest;
     }
 
-    public String getStringExpQuest() {
-        return stringExpQuest;
+    public int getintExpQuest() {
+        return intExpQuest;
     }
 
-    public void setStringExpQuest(String stringExpQuest) {
-        this.stringExpQuest = stringExpQuest;
+    public void setintExpQuest(int intExpQuest) {
+        this.intExpQuest = intExpQuest;
     }
 
-    public String getStringStuffQuest() {
-        return stringStuffQuest;
+    public int getintStuffQuest() {
+        return intStuffQuest;
     }
 
-    public void setStringStuffQuest(String stringStuffQuest) {
-        this.stringStuffQuest = stringStuffQuest;
+    public void setintStuffQuest(int intStuffQuest) {
+        this.intStuffQuest = intStuffQuest;
     }
 
-    public String getUniqueRewardStuff() {
+    public int getUniqueRewardStuff() {
         return uniqueRewardStuff;
     }
 
-    public void setUniqueRewardStuff(String uniqueRewardStuff) {
+    public void setUniqueRewardStuff(int uniqueRewardStuff) {
         this.uniqueRewardStuff = uniqueRewardStuff;
     }
 }

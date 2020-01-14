@@ -6,34 +6,34 @@ import java.util.ArrayList;
 
 public class Event extends Cards {
 
-    String description;
+    int description;
     ArrayList<Pair<Integer, String>> monstersDescription;
     int goldEvent;
     int expEvent;
     int stuffEvent;
-    String stringGoldEvent;
-    String stringExpEvent;
-    String stringStuffEvent;
-    String uniqueStuffReward;
+    int intGoldEvent;
+    int intExpEvent;
+    int intStuffEvent;
+    int uniqueStuffReward;
 
-    Event(int ID, String Name, int CardImage, String description, ArrayList monstersDescription, int goldEvent, int expEvent, String uniqueStuffReward, String stringGoldEvent, String stringExpEvent, String stringStuffEvent) {
+    Event(int ID, int Name, int CardImage, int description, ArrayList monstersDescription, int goldEvent, int expEvent, int uniqueStuffReward, int intGoldEvent, int intExpEvent, int intStuffEvent) {
         super(ID, Name, CardImage);
         this.description = description;
         this.monstersDescription = monstersDescription;
         this.goldEvent = goldEvent;
         this.expEvent = expEvent;
         this.uniqueStuffReward = uniqueStuffReward;
-        this.stringGoldEvent = stringGoldEvent;
-        this.stringExpEvent = stringExpEvent;
-        this.stringStuffEvent = stringStuffEvent;
+        this.intGoldEvent = intGoldEvent;
+        this.intExpEvent = intExpEvent;
+        this.intStuffEvent = intStuffEvent;
 
     }
 
-    public String getDescription() {
+    public int getDescription() {
         return description;
     }
 
-    public void setDescription(String description) {
+    public void setDescription(int description) {
         this.description = description;
     }
 
@@ -69,35 +69,35 @@ public class Event extends Cards {
         this.stuffEvent = stuffEvent;
     }
 
-    public String getStringGoldEvent() {
-        return stringGoldEvent;
+    public int getintGoldEvent() {
+        return intGoldEvent;
     }
 
-    public void setStringGoldEvent(String stringGoldEvent) {
-        this.stringGoldEvent = stringGoldEvent;
+    public void setintGoldEvent(int intGoldEvent) {
+        this.intGoldEvent = intGoldEvent;
     }
 
-    public String getStringExpEvent() {
-        return stringExpEvent;
+    public int getintExpEvent() {
+        return intExpEvent;
     }
 
-    public void setStringExpEvent(String stringExpEvent) {
-        this.stringExpEvent = stringExpEvent;
+    public void setintExpEvent(int intExpEvent) {
+        this.intExpEvent = intExpEvent;
     }
 
-    public String getStringStuffEvent() {
-        return stringStuffEvent;
+    public int getintStuffEvent() {
+        return intStuffEvent;
     }
 
-    public void setStringStuffEvent(String stringStuffEvent) {
-        this.stringStuffEvent = stringStuffEvent;
+    public void setintStuffEvent(int intStuffEvent) {
+        this.intStuffEvent = intStuffEvent;
     }
 
-    public String getUniqueStuffReward() {
+    public int getUniqueStuffReward() {
         return uniqueStuffReward;
     }
 
-    public void setUniqueStuffReward(String uniqueStuffReward) {
+    public void setUniqueStuffReward(int uniqueStuffReward) {
         this.uniqueStuffReward = uniqueStuffReward;
     }
 }

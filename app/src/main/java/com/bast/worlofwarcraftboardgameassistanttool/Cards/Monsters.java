@@ -1,25 +1,28 @@
 package com.bast.worlofwarcraftboardgameassistanttool.Cards;
 
-public class Monsters extends Cards {
+public class Monsters {
 
+    int ID;
+    int Name;
     int greenMonsters;
     int blueMonsters;
     int redMonsters;
 
-    String greenThreat;
-    String blueThreat;
-    String redThreat;
+    int greenThreat;
+    int blueThreat;
+    int redThreat;
 
-    String greenAttack;
-    String blueAttack;
-    String redAttack;
+    int greenAttack;
+    int blueAttack;
+    int redAttack;
 
-    String greenHealth;
-    String blueHealth;
-    String redHealth;
+    int greenHealth;
+    int blueHealth;
+    int redHealth;
 
-    Monsters(int ID, String Name, int CardImage, int greenMonsters, int blueMonsters, int redMonsters, String greenThreat, String blueThreat, String redThreat, String greenAttack, String blueAttack, String redAttack, String greenHealth, String blueHealth, String redHealth) {
-        super(ID, Name, CardImage);
+    Monsters(int ID, int Name,  int greenMonsters, int blueMonsters, int redMonsters, int greenThreat, int blueThreat, int redThreat, int greenAttack, int blueAttack, int redAttack, int greenHealth, int blueHealth, int redHealth) {
+        this.ID = ID;
+        this.Name = Name;
         this.greenMonsters = greenMonsters;
         this.blueMonsters = blueMonsters;
         this.redMonsters = redMonsters;
@@ -33,6 +36,22 @@ public class Monsters extends Cards {
         this.blueHealth = blueHealth;
         this.redHealth = redHealth;
 
+    }
+
+    public int getID() {
+        return ID;
+    }
+
+    public void setID(int ID) {
+        this.ID = ID;
+    }
+
+    public int getName() {
+        return Name;
+    }
+
+    public void setName(int name) {
+        Name = name;
     }
 
     public int getGreenMonsters() {
@@ -59,75 +78,75 @@ public class Monsters extends Cards {
         this.redMonsters = redMonsters;
     }
 
-    public String getGreenThreat() {
+    public int getGreenThreat() {
         return greenThreat;
     }
 
-    public void setGreenThreat(String greenThreat) {
+    public void setGreenThreat(int greenThreat) {
         this.greenThreat = greenThreat;
     }
 
-    public String getBlueThreat() {
+    public int getBlueThreat() {
         return blueThreat;
     }
 
-    public void setBlueThreat(String blueThreat) {
+    public void setBlueThreat(int blueThreat) {
         this.blueThreat = blueThreat;
     }
 
-    public String getRedThreat() {
+    public int getRedThreat() {
         return redThreat;
     }
 
-    public void setRedThreat(String redThreat) {
+    public void setRedThreat(int redThreat) {
         this.redThreat = redThreat;
     }
 
-    public String getGreenAttack() {
+    public int getGreenAttack() {
         return greenAttack;
     }
 
-    public void setGreenAttack(String greenAttack) {
+    public void setGreenAttack(int greenAttack) {
         this.greenAttack = greenAttack;
     }
 
-    public String getBlueAttack() {
+    public int getBlueAttack() {
         return blueAttack;
     }
 
-    public void setBlueAttack(String blueAttack) {
+    public void setBlueAttack(int blueAttack) {
         this.blueAttack = blueAttack;
     }
 
-    public String getRedAttack() {
+    public int getRedAttack() {
         return redAttack;
     }
 
-    public void setRedAttack(String redAttack) {
+    public void setRedAttack(int redAttack) {
         this.redAttack = redAttack;
     }
 
-    public String getGreenHealth() {
+    public int getGreenHealth() {
         return greenHealth;
     }
 
-    public void setGreenHealth(String greenHealth) {
+    public void setGreenHealth(int greenHealth) {
         this.greenHealth = greenHealth;
     }
 
-    public String getBlueHealth() {
+    public int getBlueHealth() {
         return blueHealth;
     }
 
-    public void setBlueHealth(String blueHealth) {
+    public void setBlueHealth(int blueHealth) {
         this.blueHealth = blueHealth;
     }
 
-    public String getRedHealth() {
+    public int getRedHealth() {
         return redHealth;
     }
 
-    public void setRedHealth(String redHealth) {
+    public void setRedHealth(int redHealth) {
         this.redHealth = redHealth;
     }
 }

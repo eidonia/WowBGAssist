@@ -3,22 +3,22 @@ package com.bast.worlofwarcraftboardgameassistanttool.Cards;
 import java.util.ArrayList;
 
 public class Heroes extends Cards{
-    String classHero;
+    int classHero;
     ArrayList stuff;
     int boardGame;
 
-    Heroes(int ID, String Name, int CardImage, String classHero, ArrayList stuff, int boardGame) {
+    Heroes(int ID, int Name, int CardImage, int classHero, ArrayList stuff, int boardGame) {
         super(ID, Name, CardImage);
         this.classHero = classHero;
         this.stuff = stuff;
         this.boardGame = boardGame;
     }
 
-    public String getClassHero() {
+    public int getClassHero() {
         return classHero;
     }
 
-    public void setClassHero(String classHero) {
+    public void setClassHero(int classHero) {
         this.classHero = classHero;
     }
 

@@ -5,10 +5,10 @@ import android.media.Image;
 public class Cards {
 
     int ID;
-    String Name;
+    int Name;
     int CardImage;
 
-    Cards(int ID, String Name, int CardImage) {
+    Cards(int ID, int Name, int CardImage) {
         this.ID = ID;
         this.Name = Name;
         this.CardImage = CardImage;
@@ -23,11 +23,11 @@ public class Cards {
         this.ID = ID;
     }
 
-    public String getName() {
+    public int getName() {
         return Name;
     }
 
-    public void setName(String name) {
+    public void setName(int name) {
         Name = name;
     }
 

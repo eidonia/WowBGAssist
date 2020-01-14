@@ -1,37 +1,37 @@
 package com.bast.worlofwarcraftboardgameassistanttool.Cards;
 
 public class Spell extends Cards {
-    String levelRequiredSpell;
-    String Description;
+    int levelRequiredSpell;
+    int Description;
     int imageCost;
     int imageEnergyCost;
-    String stringCost;
-    String stringEnergyCost;
+    int intCost;
+    int intEnergyCost;
 
 
-    public Spell(int ID, String Name, int CardImage, String levelRequiredSpell, String Description, int imageCost, int imageEnergyCost, String stringCost, String stringEnergyCost) {
+    public Spell(int ID, int Name, int CardImage, int levelRequiredSpell, int Description, int imageCost, int imageEnergyCost, int intCost, int intEnergyCost) {
         super(ID, Name, CardImage);
         this.levelRequiredSpell = levelRequiredSpell;
         this.Description = Description;
         this.imageCost = imageCost;
         this.imageEnergyCost = imageEnergyCost;
-        this.stringCost = stringCost;
-        this.stringEnergyCost = stringEnergyCost;
+        this.intCost = intCost;
+        this.intEnergyCost = intEnergyCost;
     }
 
-    public String getLevelRequiredSpell() {
+    public int getLevelRequiredSpell() {
         return levelRequiredSpell;
     }
 
-    public void setLevelRequiredSpell(String levelRequiredSpell) {
+    public void setLevelRequiredSpell(int levelRequiredSpell) {
         this.levelRequiredSpell = levelRequiredSpell;
     }
 
-    public String getDescription() {
+    public int getDescription() {
         return Description;
     }
 
-    public void setDescription(String description) {
+    public void setDescription(int description) {
         Description = description;
     }
 
@@ -51,19 +51,19 @@ public class Spell extends Cards {
         this.imageEnergyCost = imageEnergyCost;
     }
 
-    public String getStringCost() {
-        return stringCost;
+    public int getintCost() {
+        return intCost;
     }
 
-    public void setStringCost(String stringCost) {
-        this.stringCost = stringCost;
+    public void setintCost(int intCost) {
+        this.intCost = intCost;
     }
 
-    public String getStringEnergyCost() {
-        return stringEnergyCost;
+    public int getintEnergyCost() {
+        return intEnergyCost;
     }
 
-    public void setStringEnergyCost(String stringEnergyCost) {
-        this.stringEnergyCost = stringEnergyCost;
+    public void setintEnergyCost(int intEnergyCost) {
+        this.intEnergyCost = intEnergyCost;
     }
 }
