@@ -1,11 +1,9 @@
-package com.bast.worlofwarcraftboardgameassistanttool.DataBase;
+package com.bast.worlofwarcraftboardgameassistanttool.dataBase;
 
 
-import android.content.Context;
-
-import com.bast.worlofwarcraftboardgameassistanttool.Cards.Monsters;
-import com.bast.worlofwarcraftboardgameassistanttool.Cards.Stuff;
 import com.bast.worlofwarcraftboardgameassistanttool.R;
+import com.bast.worlofwarcraftboardgameassistanttool.cards.Monsters;
+import com.bast.worlofwarcraftboardgameassistanttool.cards.Stuff;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -295,10 +293,26 @@ public class Database {
     //Monsters(int ID, int Name,  int greenMonsters, int blueMonsters, int redMonsters, int greenThreat, int blueThreat, int redThreat, int greenAttack, int blueAttack, int redAttack, int greenHealth, int blueHealth, int redHealth)
 
     public static List<Monsters> MONSTERS = Arrays.asList(
-            new Monsters(1, )
-    )
+            new Monsters(1, R.string.Crusader, R.string.CrusaderDesc, R.drawable.crusader_green, R.drawable.crusader_blue, R.drawable.crusader_red, R.string.CrusaderGreenThreat, R.string.CrusaderBlueThreat, R.string.CrusaderRedThreat, R.string.CrusaderGreenAttack, R.string.CrusaderBlueAttack, R.string.CrusaderRedAttack, R.string.CrusaderGreenHealth, R.string.CrusaderBlueAttack, R.string.CrusaderRedThreat),
+            new Monsters(1, R.string.Doomguard, R.string.DoomguardDesc, R.drawable.doom_guard_green, R.drawable.doom_guard_blue, R.drawable.doom_guard_red, R.string.DoomguardGreenThreat, R.string.DoomguardBlueThreat, R.string.DoomguardRedThreat, R.string.DoomguardGreenAttack, R.string.DoomguardBlueAttack, R.string.DoomguardRedAttack, R.string.DoomguardGreenHealth, R.string.DoomguardBlueAttack, R.string.DoomguardRedThreat),
+            new Monsters(1, R.string.Drake, R.string.DrakeDesc, R.drawable.drake_green, R.drawable.drake_blue, R.drawable.drake_red, R.string.DrakeGreenThreat, R.string.DrakeBlueThreat, R.string.DrakeRedThreat, R.string.DrakeGreenAttack, R.string.DrakeBlueAttack, R.string.DrakeRedAttack, R.string.DrakeGreenHealth, R.string.DrakeBlueAttack, R.string.DrakeRedThreat),
+            new Monsters(1, R.string.Ghoul, R.string.GhoulDesc, R.drawable.ghoul_green, R.drawable.ghoul_blue, R.drawable.ghoul_red, R.string.GhoulGreenThreat, R.string.GhoulBlueThreat, R.string.GhoulRedThreat, R.string.GhoulGreenAttack, R.string.GhoulBlueAttack, R.string.GhoulRedAttack, R.string.GhoulGreenHealth, R.string.GhoulBlueAttack, R.string.GhoulRedThreat),
+            new Monsters(1, R.string.Gnoll, R.string.GnollDesc, R.drawable.gnoll_green, R.drawable.gnoll_blue, R.drawable.gnoll_red, R.string.GnollGreenThreat, R.string.GnollBlueThreat, R.string.GnollRedThreat, R.string.GnollGreenAttack, R.string.GnollBlueAttack, R.string.GnollRedAttack, R.string.GnollGreenHealth, R.string.GnollBlueAttack, R.string.GnollRedThreat),
+            new Monsters(1, R.string.Infernal, R.string.InfernalDesc, R.drawable.infernal_green, R.drawable.infernal_blue, R.drawable.infernal_red, R.string.InfernalGreenThreat, R.string.InfernalBlueThreat, R.string.InfernalRedThreat, R.string.InfernalGreenAttack, R.string.InfernalBlueAttack, R.string.InfernalRedAttack, R.string.InfernalGreenHealth, R.string.InfernalBlueAttack, R.string.InfernalRedThreat),
+            new Monsters(1, R.string.Murloc, R.string.MurlocDesc, R.drawable.murloc_green, R.drawable.murloc_blue, R.drawable.murloc_red, R.string.MurlocGreenThreat, R.string.MurlocBlueThreat, R.string.MurlocRedThreat, R.string.MurlocGreenAttack, R.string.MurlocBlueAttack, R.string.MurlocRedAttack, R.string.MurlocGreenHealth, R.string.MurlocBlueAttack, R.string.MurlocRedThreat),
+            new Monsters(1, R.string.Naga, R.string.NagaDesc, R.drawable.naga_green, R.drawable.naga_blue, R.drawable.naga_red, R.string.NagaGreenThreat, R.string.NagaBlueThreat, R.string.NagaRedThreat, R.string.NagaGreenAttack, R.string.NagaBlueAttack, R.string.NagaRedAttack, R.string.NagaGreenHealth, R.string.NagaBlueAttack, R.string.NagaRedThreat),
+            new Monsters(1, R.string.Ogre, R.string.OgreDesc, R.drawable.ogre_green, R.drawable.ogre_blue, R.drawable.ogre_red, R.string.OgreGreenThreat, R.string.OgreBlueThreat, R.string.OgreRedThreat, R.string.OgreGreenAttack, R.string.OgreBlueAttack, R.string.OgreRedAttack, R.string.OgreGreenHealth, R.string.OgreBlueAttack, R.string.OgreRedThreat),
+            new Monsters(1, R.string.Spider, R.string.SpiderDesc, R.drawable.spider_green, R.drawable.spider_blue, R.drawable.spider_red, R.string.SpiderGreenThreat, R.string.SpiderBlueThreat, R.string.SpiderRedThreat, R.string.SpiderGreenAttack, R.string.SpiderBlueAttack, R.string.SpiderRedAttack, R.string.SpiderGreenHealth, R.string.SpiderBlueAttack, R.string.SpiderRedThreat),
+            new Monsters(1, R.string.Wildkin, R.string.WildkinDesc, R.drawable.wildkin_green, R.drawable.wildkin_blue, R.drawable.wildkin_red, R.string.WildkinGreenThreat, R.string.WildkinBlueThreat, R.string.WildkinRedThreat, R.string.WildkinGreenAttack, R.string.WildkinBlueAttack, R.string.WildkinRedAttack, R.string.WildkinGreenHealth, R.string.WildkinBlueAttack, R.string.WildkinRedThreat),
+            new Monsters(1, R.string.Worgen, R.string.WorgenDesc, R.drawable.worgen_green, R.drawable.worgen_blue, R.drawable.worgen_red, R.string.WorgenGreenThreat, R.string.WorgenBlueThreat, R.string.WorgenRedThreat, R.string.WorgenGreenAttack, R.string.WorgenBlueAttack, R.string.WorgenRedAttack, R.string.WorgenGreenHealth, R.string.WorgenBlueAttack, R.string.WorgenRedThreat),
+            new Monsters(1, R.string.Wraith, R.string.WraithDesc, R.drawable.wraith_green, R.drawable.wraith_blue, R.drawable.wraith_red, R.string.WraithGreenThreat, R.string.WraithBlueThreat, R.string.WraithRedThreat, R.string.WraithGreenAttack, R.string.WraithBlueAttack, R.string.WraithRedAttack, R.string.WraithGreenHealth, R.string.WraithBlueAttack, R.string.WraithRedThreat)
+    );
 
     static List<Stuff> generateCards(){ return new ArrayList<>(CARDS);}
+
+    static List<Monsters> generateMonsters() {
+        return new ArrayList<>(MONSTERS);
+    }
 
 
 }

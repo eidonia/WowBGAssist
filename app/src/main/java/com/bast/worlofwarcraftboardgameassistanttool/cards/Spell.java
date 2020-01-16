@@ -1,4 +1,4 @@
-package com.bast.worlofwarcraftboardgameassistanttool.Cards;
+package com.bast.worlofwarcraftboardgameassistanttool.cards;
 
 public class Spell extends Cards {
     int levelRequiredSpell;

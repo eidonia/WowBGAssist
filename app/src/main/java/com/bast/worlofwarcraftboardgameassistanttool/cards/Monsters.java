@@ -1,9 +1,10 @@
-package com.bast.worlofwarcraftboardgameassistanttool.Cards;
+package com.bast.worlofwarcraftboardgameassistanttool.cards;
 
 public class Monsters {
 
     int ID;
     int Name;
+    int description;
     int greenMonsters;
     int blueMonsters;
     int redMonsters;
@@ -20,9 +21,10 @@ public class Monsters {
     int blueHealth;
     int redHealth;
 
-    Monsters(int ID, int Name,  int greenMonsters, int blueMonsters, int redMonsters, int greenThreat, int blueThreat, int redThreat, int greenAttack, int blueAttack, int redAttack, int greenHealth, int blueHealth, int redHealth) {
+    public Monsters(int ID, int Name, int description, int greenMonsters, int blueMonsters, int redMonsters, int greenThreat, int blueThreat, int redThreat, int greenAttack, int blueAttack, int redAttack, int greenHealth, int blueHealth, int redHealth) {
         this.ID = ID;
         this.Name = Name;
+        this.description = description;
         this.greenMonsters = greenMonsters;
         this.blueMonsters = blueMonsters;
         this.redMonsters = redMonsters;
@@ -53,6 +55,15 @@ public class Monsters {
     public void setName(int name) {
         Name = name;
     }
+
+    public int getDescription() {
+        return description;
+    }
+
+    public void setDescription(int description) {
+        this.description = description;
+    }
+
 
     public int getGreenMonsters() {
         return greenMonsters;

@@ -1,6 +1,5 @@
-package com.bast.worlofwarcraftboardgameassistanttool.Cardspage;
+package com.bast.worlofwarcraftboardgameassistanttool.cardspage;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,11 +10,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.bast.worlofwarcraftboardgameassistanttool.Cards.Stuff;
-import com.bast.worlofwarcraftboardgameassistanttool.DataBase.CardApiService;
-import com.bast.worlofwarcraftboardgameassistanttool.Di.Di;
-import com.bast.worlofwarcraftboardgameassistanttool.R;
+import com.bast.worlofwarcraftboardgameassistanttool.cards.Stuff;
+import com.bast.worlofwarcraftboardgameassistanttool.dataBase.CardApiService;
 import com.bast.worlofwarcraftboardgameassistanttool.databinding.FragmentInfoBinding;
+import com.bast.worlofwarcraftboardgameassistanttool.di.Di;
 
 import java.util.List;
 
@@ -46,7 +44,6 @@ public class InfoFragment extends Fragment{
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         binding = FragmentInfoBinding.inflate(inflater, container, false);
         View view = binding.getRoot();
-        Context context = view.getContext();
 
         binding.title.setText(stuff.getName());
         binding.textLvl.setText(stuff.getLevelRequired());

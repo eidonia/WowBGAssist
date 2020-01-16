@@ -9,11 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".monsters.MonstersSelectPage"></activity>
         <activity
-            android:name=".Cardspage.CardPagesDesc"
-            android:label="@string/title_activity_card_pages_desc"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".Cardspage.Cardspage" />
+            android:name=".monsters.MonstersPage"
+            android:label="@string/title_activity_monsters_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".cardspage.CardPagesDesc"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".cardspage.Cardspage" />
         <activity
             android:name=".MainActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar">

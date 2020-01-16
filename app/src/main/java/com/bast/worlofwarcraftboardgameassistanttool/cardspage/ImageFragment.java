@@ -1,4 +1,4 @@
-package com.bast.worlofwarcraftboardgameassistanttool.Cardspage;
+package com.bast.worlofwarcraftboardgameassistanttool.cardspage;
 
 import android.content.Context;
 import android.content.Intent;
@@ -6,16 +6,15 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.bast.worlofwarcraftboardgameassistanttool.Cards.Stuff;
-import com.bast.worlofwarcraftboardgameassistanttool.DataBase.CardApiService;
-import com.bast.worlofwarcraftboardgameassistanttool.Di.Di;
+import com.bast.worlofwarcraftboardgameassistanttool.cards.Stuff;
+import com.bast.worlofwarcraftboardgameassistanttool.dataBase.CardApiService;
 import com.bast.worlofwarcraftboardgameassistanttool.databinding.FragmentImageBinding;
+import com.bast.worlofwarcraftboardgameassistanttool.di.Di;
 
 import java.util.List;
 

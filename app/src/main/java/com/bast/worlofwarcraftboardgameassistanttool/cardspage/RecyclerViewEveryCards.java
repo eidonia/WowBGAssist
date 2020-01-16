@@ -1,4 +1,4 @@
-package com.bast.worlofwarcraftboardgameassistanttool.Cardspage;
+package com.bast.worlofwarcraftboardgameassistanttool.cardspage;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -11,14 +11,11 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
-import android.widget.Toast;
 
-import androidx.appcompat.app.AlertDialog;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.bast.worlofwarcraftboardgameassistanttool.Cards.Stuff;
 import com.bast.worlofwarcraftboardgameassistanttool.R;
-import com.github.chrisbanes.photoview.PhotoViewAttacher;
+import com.bast.worlofwarcraftboardgameassistanttool.cards.Stuff;
 
 import java.util.List;
 
@@ -58,8 +55,6 @@ public class RecyclerViewEveryCards extends RecyclerView.Adapter<RecyclerViewEve
         public MyViewHolder(View itemView) {
             super(itemView);
             image = itemView.findViewById(R.id.imgCards);
-            imgExpan = itemView.findViewById(R.id.imgExpan);
-
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override

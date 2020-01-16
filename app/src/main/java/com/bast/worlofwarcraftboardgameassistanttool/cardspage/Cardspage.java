@@ -1,16 +1,16 @@
-package com.bast.worlofwarcraftboardgameassistanttool.Cardspage;
-
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.GridLayoutManager;
+package com.bast.worlofwarcraftboardgameassistanttool.cardspage;
 
 import android.os.Bundle;
 import android.view.MenuItem;
 
-import com.bast.worlofwarcraftboardgameassistanttool.Cards.Stuff;
-import com.bast.worlofwarcraftboardgameassistanttool.DataBase.CardApiService;
-import com.bast.worlofwarcraftboardgameassistanttool.Di.Di;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
+
 import com.bast.worlofwarcraftboardgameassistanttool.R;
+import com.bast.worlofwarcraftboardgameassistanttool.cards.Stuff;
+import com.bast.worlofwarcraftboardgameassistanttool.dataBase.CardApiService;
 import com.bast.worlofwarcraftboardgameassistanttool.databinding.ActivityCardspageBinding;
+import com.bast.worlofwarcraftboardgameassistanttool.di.Di;
 
 import java.util.List;
 

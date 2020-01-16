@@ -1,25 +1,19 @@
-package com.bast.worlofwarcraftboardgameassistanttool.Cardspage;
+package com.bast.worlofwarcraftboardgameassistanttool.cardspage;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
-import com.bast.worlofwarcraftboardgameassistanttool.Cards.Stuff;
-import com.bast.worlofwarcraftboardgameassistanttool.DataBase.CardApiService;
-import com.bast.worlofwarcraftboardgameassistanttool.Di.Di;
-import com.bast.worlofwarcraftboardgameassistanttool.R;
-import com.bast.worlofwarcraftboardgameassistanttool.Utils.TabPageAdaptater;
-import com.bast.worlofwarcraftboardgameassistanttool.databinding.ActivityCardPagesDescBinding;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
-import com.google.android.material.tabs.TabLayout;
-
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.viewpager.widget.ViewPager;
-import androidx.appcompat.app.AppCompatActivity;
 
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
+import com.bast.worlofwarcraftboardgameassistanttool.R;
+import com.bast.worlofwarcraftboardgameassistanttool.cards.Stuff;
+import com.bast.worlofwarcraftboardgameassistanttool.dataBase.CardApiService;
+import com.bast.worlofwarcraftboardgameassistanttool.di.Di;
+import com.bast.worlofwarcraftboardgameassistanttool.utils.TabPageAdaptater;
+import com.google.android.material.tabs.TabLayout;
 
 import java.util.List;
 
@@ -43,7 +37,6 @@ public class CardPagesDesc extends AppCompatActivity {
         int itemPos = intent.getIntExtra("POS", 0);
         apiService = Di.getCardApiService();
         mCards = apiService.getCards();
-        //stuff = new Stuff(45, "COUCOU", 2, "blop", false, null, "Kointe", "2", "Green", "5", "10" );
         stuff = mCards.get(itemPos);
 
         tabs = findViewById(R.id.tabs);
@@ -58,7 +51,7 @@ public class CardPagesDesc extends AppCompatActivity {
             }
         });
 
-        tabPageAdaptater = new TabPageAdaptater(getSupportFragmentManager());
+        tabPageAdaptater = new TabPageAdaptater(getSupportFragmentManager(), "Cards");
         viewPager.setAdapter(tabPageAdaptater);
         viewPager.addOnPageChangeListener( new TabLayout.TabLayoutOnPageChangeListener(tabs));
         tabs.addOnTabSelectedListener(new TabLayout.ViewPagerOnTabSelectedListener(viewPager));

@@ -1,4 +1,4 @@
-package com.bast.worlofwarcraftboardgameassistanttool.Cards;
+package com.bast.worlofwarcraftboardgameassistanttool.cards;
 
 import android.util.Pair;
 

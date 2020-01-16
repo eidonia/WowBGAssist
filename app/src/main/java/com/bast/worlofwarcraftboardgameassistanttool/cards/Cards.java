@@ -1,6 +1,4 @@
-package com.bast.worlofwarcraftboardgameassistanttool.Cards;
-
-import android.media.Image;
+package com.bast.worlofwarcraftboardgameassistanttool.cards;
 
 public class Cards {
 
